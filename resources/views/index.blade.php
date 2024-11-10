@@ -9,8 +9,25 @@
         
         <!-- Start Header Top Area  -->
         <x-headertop />
-        <x-header2 />
-        
+        <x-header />
+        <!-- End Header Top Area  -->
+
+        <div id="my_switcher" class="my_switcher">
+            <ul>
+                <li>
+                    <a href="javascript: void(0);" data-theme="light" class="setColor light">
+                        <img src="{{ asset('assets/images/light/switch/sun-01.svg') }}" alt="Sun images"><span title="Light Mode"> Light</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
+                        <img src="{{ asset('assets/images/light/switch/vector.svg') }}" alt="Vector Images"><span title="Dark Mode">
+                            Dark</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
         
 
         <!-- start mobilemenu -->
@@ -28,8 +45,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="inner text-center mt--60">
-                            <h1 class="title display-one">Голос будущего<br>
-                                <span class="theme-gradient">Автоматизация</span> <br><span class="color-off">Настоящего</span>
+                            <h1 class="title display-one">Unlock The Power Of <br>
+                                <span class="theme-gradient">ChatenAI AI</span> With <br><span class="color-off">Smartest AI</span>
                             </h1>
                             <p class="b1 desc-text">AI-Powered Copywriting A Game-Changer in Content Creation.</p>
                             <div class="button-group">
