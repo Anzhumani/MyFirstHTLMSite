@@ -49,8 +49,8 @@
                                 <span class="theme-gradient cd-headline clip is-full-width">
                                     <span class="cd-words-wrapper" style="width: 200px;">
                                         <b class="theme-gradient is-visible">Автоматизация</b>
-                                        <b class="theme-gradient is-hidden">Инновация</b>
-                                        <b class="theme-gradient is-hidden">Коммуникация</b>
+                                        <b class="theme-gradient is-hidden">Оптимизация</b>
+                                        <b class="theme-gradient is-hidden">Роботизация</b>
                                     </span>
                                 </span><br><span class="color-off">Настоящего</span>
                             </h1>
