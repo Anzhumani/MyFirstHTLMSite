@@ -50,7 +50,7 @@
                                     <span class="cd-words-wrapper" style="width: 200px;">
                                         <b class="theme-gradient is-visible">Автоматизация</b>
                                         <b class="theme-gradient is-hidden">Оптимизация</b>
-                                        <b class="theme-gradient is-hidden">Роботизация</b>
+                                        <b class="theme-gradient is-hidden">Цифровизация</b>
                                     </span>
                                 </span><br><span class="color-off">Настоящего</span>
                             </h1>
