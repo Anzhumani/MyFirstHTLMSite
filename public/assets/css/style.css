@@ -1165,7 +1165,7 @@ All Extend Here
 ----------------------------*/
 @-webkit-keyframes headerSlideDown {
   0% {
-    margin-top: -100px;
+    margin-top: 0px;
   }
   to {
     margin-top: 0;
@@ -1173,7 +1173,7 @@ All Extend Here
 }
 @keyframes headerSlideDown {
   0% {
-    margin-top: -100px;
+    margin-top: 0px;
   }
   to {
     margin-top: 0;
@@ -1301,7 +1301,7 @@ Scroll Down Button Animation
 ----------------------------*/
 @-webkit-keyframes headerSlideDown {
   0% {
-    margin-top: -100px;
+    margin-top: 0px;
   }
   to {
     margin-top: 0;
@@ -1309,7 +1309,7 @@ Scroll Down Button Animation
 }
 @keyframes headerSlideDown {
   0% {
-    margin-top: -100px;
+    margin-top: 0px;
   }
   to {
     margin-top: 0;
