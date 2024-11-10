@@ -1,4 +1,4 @@
-<header class="rbt-dashboard-header rainbow-header header-default header-left-align ">
+<header class="rbt-dashboard-header rainbow-header header-default header-left-align rbt-fluid-header">
     <div class="container-fluid position-relative">
         <div class="row align-items-center">
             <div class="col-lg-2 col-md-6 col-7">
