@@ -45,10 +45,10 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="inner text-center mt--60">
-                            <h1 class="title display-one">Голос будущего<br>
+                            <h1 class="title display-one">Технологии будущего<br>
                                 <span class="theme-gradient">Автоматизация</span><br><span class="color-off">Настоящего</span>
                             </h1>
-                            <p class="b1 desc-text">Контакт-центр с ИИ: эффективная связь нового поколения.</p>
+                            <p class="b1 desc-text">Искусственный интеллект открывает новую главу в коммуникациях</p>
                             <div class="button-group">
                                 <a class="btn-default bg-light-gradient btn-large" href="{{ asset('textgenerator') }}">
                                     <div class="has-bg-light"></div>
@@ -86,8 +86,8 @@
                             <h4 class="subtitle">
                                 <span class="theme-gradient">ПРИКОСНИТЕСЬ К ТЕХНОЛОГИЯМ</span>
                             </h4>
-                            <h2 class="title w-600 mb--20">Автоматизация общения: быстро и эффективно</h2>
-                            <p class="description b1">Комплексные решения для контактных центров</p>
+                            <h2 class="title w-600 mb--20">Сверхэффективные решения для взаимодействия с клиентами</h2>
+                            <p class="description b1">Омниканальные звонки и чаты для вашего бизнеса</p>
                         </div>
                     </div>
                 </div>
