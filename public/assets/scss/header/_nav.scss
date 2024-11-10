@@ -42,13 +42,13 @@
         li {
             margin-top: 0;
             margin-bottom: 0;
-            position: fixed;
+            position: relative;
 
             &.has-droupdown {
                 .submenu {
                     min-width: 260px;
                     height: auto;
-                    position: fixed;
+                    position: absolute;
                     top: 90%;
                     left: 0;
                     z-index: 90;
@@ -98,7 +98,7 @@
                 position: static;
 
                 .rainbow-megamenu {
-                    position: fixed;
+                    position: absolute;
                     transition: 0.3s;
                     top: 90%;
                     width: 100%;

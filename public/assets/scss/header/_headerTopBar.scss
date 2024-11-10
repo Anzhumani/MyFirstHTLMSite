@@ -1,16 +1,16 @@
 .header-transparent-with-topbar {
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     width: auto;
     z-index: 99;
 
     @media #{$md-layout} {
-        position: fixed;
+        position: relative;
     }
 
     @media #{$sm-layout} {
-        position: fixed;
+        position: relative;
     }
 
     .header-top-bar {
