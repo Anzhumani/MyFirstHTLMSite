@@ -8,7 +8,7 @@
     color: #fff;
     font-size: 12px;
     z-index: 99;
-    position: fixed; /* Изменено с 'relative' на 'fixed' */
+    position: fixed; /* Изменено */
     top: 0;          /* Добавлено */
     left: 0;         /* Добавлено */
     width: 100%;     /* Добавлено */
@@ -74,25 +74,4 @@
     }
 }
 
-/* Добавляем стили для '.header-left-align' */
-.header-left-align {
-    .mainmenu-nav {
-        margin-left: 30px;
-    }
-}
-
-/* Добавляем стили для '.rbt-fluid-header' */
-.rbt-fluid-header {
-    .container-wrapper {
-        max-width: 1600px;
-    }
-}
-
-/* Удаляем или комментируем стили, связанные с 'header-sticky' и 'sticky' */
-
-/* Дополнительные стили, если необходимо */
-.rainbow-header.header-default.header-not-transparent {
-    background-color: var(--color-darker); /* Убедитесь, что фон установлен */
-}
-
-/* Увеличиваем z-index, если нужно, чтобы заголовок был поверх других элементов */
+/* Удалены стили, связанные с 'header-sticky' и 'sticky' */
