@@ -46,9 +46,15 @@
                     <div class="col-lg-12">
                         <div class="inner text-center mt--60">
                             <h1 class="title display-one">Технологии будущего<br>
-                                <span class="theme-gradient">Автоматизация</span><br><span class="color-off">Настоящего</span>
+                                <span class="theme-gradient cd-headline clip is-full-width">
+                                    <span class="cd-words-wrapper" style="width: 200px;">
+                                        <b class="theme-gradient is-visible">Автоматизация</b>
+                                        <b class="theme-gradient is-hidden">Инновация</b>
+                                        <b class="theme-gradient is-hidden">Коммуникация</b>
+                                    </span>
+                                </span><br><span class="color-off">Настоящего</span>
                             </h1>
-                            <p class="b1 desc-text">Искусственный интеллект открывает новую главу в коммуникациях</p>
+                            <p class="b1 desc-text">Омниканальные звонки и чаты для вашего бизнеса</p>
                             <div class="button-group">
                                 <a class="btn-default bg-light-gradient btn-large" href="{{ asset('textgenerator') }}">
                                     <div class="has-bg-light"></div>
@@ -84,10 +90,10 @@
                     <div class="col-lg-12">
                         <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                             <h4 class="subtitle">
-                                <span class="theme-gradient">ПРИКОСНИТЕСЬ К ТЕХНОЛОГИЯМ</span>
+                                <span class="theme-gradient">МЫ ПРЕДЛАГАЕМ ВАМ</span>
                             </h4>
-                            <h2 class="title w-600 mb--20">Сверхэффективные решения для взаимодействия с клиентами</h2>
-                            <p class="description b1">Омниканальные звонки и чаты для вашего бизнеса</p>
+                            <h2 class="title w-600 mb--20">Комплексные ИИ решения для контактных центров</h2>
+                            <p class="description b1">Мы предлагаем полный спектр услуг по обработке вызовов и сообщений, чтобы ваш бизнес был всегда на связи с клиентами</p>
                         </div>
                     </div>
                 </div>
