@@ -10448,9 +10448,9 @@ xclip
   left: 0;
   background-color: var(--color-dark) !important;
   width: 100%;
-  height: 80px;
-  /*animation: headerSticky 0.95s ease forwards;*/
-  z-index: 9;
+  height: 0px;
+  animation: headerSticky 0.95s ease forwards;
+  z-index: 9999;
 }
 
 .rbt-fluid-header .container-wrapper {
