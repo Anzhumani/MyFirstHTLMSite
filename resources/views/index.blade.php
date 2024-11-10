@@ -10,12 +10,10 @@
         <!-- Start Header Top Area  -->
         <x-headertop />
         <x-header />
-        <x-header2 />
-        <x-header3 />
-        <x-header4 />
+        
         <!-- End Header Top Area  -->
 
-        <div id="my_switcher" class="my_switcher">
+        {{-- <div id="my_switcher" class="my_switcher">
             <ul>
                 <li>
                     <a href="javascript: void(0);" data-theme="light" class="setColor light">
@@ -388,7 +386,7 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </header> --}}
 
         <!-- start mobilemenu -->
         <x-mobilemenu />
