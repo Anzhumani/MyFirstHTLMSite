@@ -1,6 +1,6 @@
 /*--------------------------
     Header Styles  
-    --------------------------*/
+--------------------------*/
 .header-default {
     max-width: 100%;
     border-bottom: 1px solid var(--color-border);
@@ -12,7 +12,7 @@
     top: 0;          /* Добавлено */
     left: 0;         /* Добавлено */
     width: 100%;     /* Добавлено */
-    
+
     .logo {
         a {
             display: block;
@@ -28,16 +28,7 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-    }
-
-    &.header-relative {
-        position: relative;
-    }
-
-    .header-right {
-        display: flex;
         justify-content: flex-end;
-        
 
         .header-btn {
             margin-left: 25px;
@@ -81,29 +72,27 @@
         background: transparent;
         backdrop-filter: inherit;
     }
-    &.header-sticky {
-        transition: height .5s ease-in;
-        &.sticky {
-            position: fixed;
-            top: 0;
-            left: 0;
-            background-color: var(--color-dark) !important;
-            width: 100%;
-            height: 80px;
-            animation: headerSticky .95s ease forwards;
-            z-index: 9;
-        }
+}
+
+/* Добавляем стили для '.header-left-align' */
+.header-left-align {
+    .mainmenu-nav {
+        margin-left: 30px;
     }
 }
 
-
-@keyframes headerSticky {
-    0% {
-        transform: translateY(-100%);
-    }
-
-    100% {
-        transform: translateY(0);
+/* Добавляем стили для '.rbt-fluid-header' */
+.rbt-fluid-header {
+    .container-wrapper {
+        max-width: 1600px;
     }
 }
 
+/* Удаляем или комментируем стили, связанные с 'header-sticky' и 'sticky' */
+
+/* Дополнительные стили, если необходимо */
+.rainbow-header.header-default.header-not-transparent {
+    background-color: var(--color-darker); /* Убедитесь, что фон установлен */
+}
+
+/* Увеличиваем z-index, если нужно, чтобы заголовок был поверх других элементов */

@@ -28,8 +28,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="inner text-center mt--60">
-                            <h1 class="title display-one">Технологии Будущего. <br>
-                                <span class="theme-gradient">Автоматизация</span> Настоящего. <br><span class="color-off">РОБОИННОВАЦИИ</span>
+                            <h1 class="title display-one">Голос Будущего<br>
+                                <span class="theme-gradient">Автоматизация</span> <br>Настоящего
                             </h1>
                             <p class="b1 desc-text">AI-Powered Copywriting A Game-Changer in Content Creation.</p>
                             <div class="button-group">

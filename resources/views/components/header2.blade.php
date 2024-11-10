@@ -1,5 +1,6 @@
 <!-- Start Header Area  -->
-<header class="rainbow-header header-default header-not-transparent">
+<header class="rainbow-header header-default header-not-transparent header-left-align rbt-fluid-header">
+
     <div class="container position-relative">
         <div class="row align-items-center row--0">
             <div class="col-lg-3 col-md-6 col-6">
