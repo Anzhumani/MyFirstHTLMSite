@@ -22016,3 +22016,12 @@ body.active-light-mode .rbt-utilize-area .rbt-default-sidebar-list li.has-submen
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Указываем дочерним элементам наследовать размер и вес H1 */
+.display-one .cd-headline,
+.display-one .cd-words-wrapper,
+.display-one .cd-headline b {
+    font-size: inherit; /* Использует тот же размер, что и .display-one */
+    font-weight: inherit; /* Наследует жирность текста */
+    line-height: inherit; /* Наследует межстрочный интервал */
+}
