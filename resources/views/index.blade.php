@@ -45,7 +45,7 @@
                             <nav class="mainmenu-nav d-none d-lg-block">
                                 <ul class="mainmenu">
                                     <li><a href="{{ route('dashboard') }}">Welcome</a></li>
-                                    <li class="with-megamenu has-menu-child-item position-relative"><a href="#">Pages</a>
+                                    <li class="with-megamenu has-menu-child-item position-relative"><a href="#">Страницы</a>
                                         <div class="rainbow-megamenu right-align with-mega-item-2 small">
                                             <div class="wrapper p-0">
                                                 <div class="row row--0">
