@@ -9,7 +9,7 @@
         
         <!-- Start Header Top Area  -->
         <x-headertop />
-        <x-header4 />
+        <x-header2 />
         
         <!-- End Header Top Area  -->
 
