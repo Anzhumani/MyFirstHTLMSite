@@ -9,6 +9,10 @@
         
         <!-- Start Header Top Area  -->
         <x-headertop />
+        <x-header />
+        <x-header2 />
+        <x-header3 />
+        <x-header4 />
         <!-- End Header Top Area  -->
 
         <div id="my_switcher" class="my_switcher">
