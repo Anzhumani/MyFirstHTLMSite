@@ -11,8 +11,12 @@
     background-color: var(--color-darker);
     color: #fff;
     font-size: 12px;
-    z-index: 99;
-    position: relative;
+    z-index: 1000; /* Увеличили z-index */
+    position: fixed; /* Изменили с 'relative' на 'fixed' */
+    top: 0;          /* Добавили */
+    left: 0;         /* Добавили */
+    width: 100%;     /* Добавили */
+
     .logo {
         a {
             display: flex;
@@ -24,19 +28,11 @@
             }
         }
     }
-    
+
     .header-right {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-    }
-
-    &.header-relative {
-        position: relative;
-    }
-
-    .header-right {
-        display: flex;
         justify-content: flex-end;
 
         .header-btn {

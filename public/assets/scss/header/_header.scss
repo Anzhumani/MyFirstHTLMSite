@@ -1,52 +1,47 @@
 /*--------------------------
     Header Styles  
     --------------------------*/
-.header-default {
-    max-width: 100%;
-    border-bottom: 1px solid var(--color-border);
-    background-color: var(--color-darker);
-    color: #fff;
-    font-size: 12px;
-    z-index: 99;
-    position: relative;
-    .logo {
-        a {
-            display: block;
-            height: 80px;
-            line-height: 80px;
-            img {
-                max-height: 45px;
+    .header-default {
+        max-width: 100%;
+        border-bottom: 1px solid var(--color-border);
+        background-color: var(--color-darker);
+        color: #fff;
+        font-size: 12px;
+        z-index: 1000; /* Увеличили z-index для перекрытия других элементов */
+        position: fixed; /* Изменили с 'relative' на 'fixed' */
+        top: 0;          /* Добавили */
+        left: 0;         /* Добавили */
+        width: 100%;     /* Добавили */
+    
+        .logo {
+            a {
+                display: block;
+                height: 80px;
+                line-height: 80px;
+                img {
+                    max-height: 45px;
+                }
             }
         }
-    }
-
-    .header-right {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-    &.header-relative {
-        position: relative;
-    }
-
-    .header-right {
-        display: flex;
-        justify-content: flex-end;
-        
-
-        .header-btn {
-            margin-left: 25px;
-
-            @media #{$md-layout} {
-                margin-left: 0;
-            }
-
-            @media #{$sm-layout} {
-                margin-left: 0;
+    
+        .header-right {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: flex-end;
+    
+            .header-btn {
+                margin-left: 25px;
+    
+                @media #{$md-layout} {
+                    margin-left: 0;
+                }
+    
+                @media #{$sm-layout} {
+                    margin-left: 0;
+                }
             }
         }
-    }
 
     a,
     button {

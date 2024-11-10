@@ -10442,17 +10442,15 @@ xclip
   margin-left: 30px;
 }
 
-
-
-.rainbow-header {
+.rainbow-header.sticky {
   position: fixed;
   top: 0;
   left: 0;
   background-color: var(--color-dark) !important;
   width: 100%;
   height: 80px;
+  animation: headerSticky 0.95s ease forwards;
   z-index: 9;
-  animation: none; /* Убираем анимацию */
 }
 
 .rbt-fluid-header .container-wrapper {
