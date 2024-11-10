@@ -1,5 +1,5 @@
 <!-- Start Header Area  -->
-<header class="rainbow-header header-default header-not-transparent">
+<header class="rainbow-header header-default header-not-transparent" style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;">
     <div class="container position-relative">
         <div class="row align-items-center row--0">
             <div class="col-lg-3 col-md-6 col-6">
