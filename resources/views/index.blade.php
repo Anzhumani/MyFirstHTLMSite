@@ -45,17 +45,17 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="inner text-center mt--60">
-                            <h1 class="title display-one">Unlock The Power Of <br>
-                                <span class="theme-gradient">ChatenAI AI</span> With <br><span class="color-off">Smartest AI</span>
+                            <h1 class="title display-one">Технологии из будущего<br>
+                                <span class="theme-gradient">Автоматизация</span><br><span class="color-off">Настоящего</span>
                             </h1>
-                            <p class="b1 desc-text">AI-Powered Copywriting A Game-Changer in Content Creation.</p>
+                            <p class="b1 desc-text">Мы предлагаем инновационные решения для обработки клиентских обращений с использованием технологий автоматизации. Оставьте заявку, чтобы узнать, как наши услуги могут улучшить ваш бизнес.</p>
                             <div class="button-group">
                                 <a class="btn-default bg-light-gradient btn-large" href="{{ asset('textgenerator') }}">
                                     <div class="has-bg-light"></div>
-                                    <span>Start writing for free</span>
+                                    <span>Протестировать бесплатно</span>
                                 </a>
                             </div>
-                            <p class="color-gray mt--5">💳 No credit card required!</p>
+                            <p class="color-gray mt--5">💳 Не требуется привязка к счетам!</p>
                         </div>
                     </div>
                     <div class="col-lg-10 col-xl-10 order-1 order-lg-2">
@@ -84,7 +84,7 @@
                     <div class="col-lg-12">
                         <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                             <h4 class="subtitle">
-                                <span class="theme-gradient">GET IN TOUCH FOR FREE</span>
+                                <span class="theme-gradient">ПРИКОСНИТЕСЬ К ТЕХНОЛОГИЯМ</span>
                             </h4>
                             <h2 class="title w-600 mb--20">Instant Content Generation with AI</h2>
                             <p class="description b1">Provide Descriptions, Get Instant AI-Generated Content</p>
