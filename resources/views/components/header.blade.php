@@ -442,7 +442,7 @@
                     </div>
                     <!-- Start admin Area  -->
 
-                    <div class="expand-btn-grp {{ $toggle == 'true' ? '@@display-class' : 'd-none' }}">
+                    <div class="expand-btn-grp {{ isset($toggle) && $toggle == 'true' ? '@@display-class' : 'd-none' }}">
                         <button class="bg-solid-primary popup-dashboardright-btn"><i class="feather-sidebar right"></i></button>
                     </div>
                 </div>
