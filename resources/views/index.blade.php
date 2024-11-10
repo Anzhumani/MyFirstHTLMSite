@@ -8,7 +8,6 @@
     <main class="page-wrapper">
         
         <!-- Start Header Top Area  -->
-        <x-headertop />
         <x-header2 />
         
         
