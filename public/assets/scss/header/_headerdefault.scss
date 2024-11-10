@@ -11,12 +11,8 @@
     background-color: var(--color-darker);
     color: #fff;
     font-size: 12px;
-    z-index: 1000; /* Увеличили z-index */
-    position: fixed; /* Изменили с 'relative' на 'fixed' */
-    top: 0;          /* Добавили */
-    left: 0;         /* Добавили */
-    width: 100%;     /* Добавили */
-
+    z-index: 99;
+    position: fixed;
     .logo {
         a {
             display: flex;
@@ -28,11 +24,19 @@
             }
         }
     }
-
+    
     .header-right {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+    }
+
+    &.header-relative {
+        position: fixed;
+    }
+
+    .header-right {
+        display: flex;
         justify-content: flex-end;
 
         .header-btn {
@@ -63,7 +67,7 @@
     }
 
     &.header-transparent {
-        position: absolute;
+        position: fixed;
         left: 0;
         right: 0;
         width: auto;
@@ -75,7 +79,7 @@
 
 
 .header-transparent-with-topbar {
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     width: auto;
