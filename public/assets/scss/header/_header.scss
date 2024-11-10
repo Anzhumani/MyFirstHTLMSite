@@ -78,15 +78,15 @@
         backdrop-filter: inherit;
     }
     &.header-sticky {
-        transition: height .5s ease-in;
+        transition: height 3.5s ease-in;
         &.sticky {
             position: fixed;
             top: 0;
             left: 0;
             background-color: var(--color-dark) !important;
             width: 100%;
-            height: 200px;
-            animation: headerSticky .95s ease forwards;
+            height: 80px;
+            animation: headerSticky 3.95s ease forwards;
             z-index: 9;
         }
     }
