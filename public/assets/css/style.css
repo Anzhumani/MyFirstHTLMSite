@@ -10462,6 +10462,7 @@ xclip
   height: 80px;
   z-index: 9;
   animation: none; /* Убираем анимацию */
+  z-index: 999;
 }
 
 .rbt-fluid-header .container-wrapper {
