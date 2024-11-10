@@ -8,8 +8,10 @@
     <main class="page-wrapper">
         
         <!-- Start Header Top Area  -->
-        <x-headertop />
+        
         <x-header2 />
+        
+        <x-headertop />
         
         <!-- End Header Top Area  -->
 
