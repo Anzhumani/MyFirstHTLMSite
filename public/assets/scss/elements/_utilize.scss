@@ -105,7 +105,7 @@
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
-            white-space: normal; /* Разрешаем перенос строк */
+            white-space: nowrap;
         }
     }
 
