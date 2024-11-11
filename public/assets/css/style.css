@@ -16873,7 +16873,7 @@ body.active-light-mode .sign-up-box .signup-box-content .btn-border:hover {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
-  white-space: nowrap;
+  white-space: normal;
 }
 .rbt-utilize-area .rbt-gradient-border {
   background: linear-gradient(to right, var(--color-primary-gradient-start), var(--color-primary-gradient-end)) !important;
