@@ -612,7 +612,7 @@
 
     headerSticky: function () {
       $(window).scroll(function () {
-        if ($(this).scrollTop() > 250) {
+        if ($(this).scrollTop() > 0) {
           $(".header-sticky").addClass("sticky");
         } else {
           $(".header-sticky").removeClass("sticky");

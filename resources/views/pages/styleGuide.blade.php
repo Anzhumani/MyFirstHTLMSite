@@ -413,7 +413,7 @@ $header = 'header3';
                                 <h3 class="title">Clip Animated
                                     <span class="header-caption">
                                         <span class="cd-headline clip is-full-width">
-                                            <span class="cd-words-wrapper" style="width: 156px;">
+                                            <span class="cd-words-wrapper" style="width: 300px;">
                                                 <b class="theme-gradient is-hidden">Clip One.</b>
                                                 <b class="theme-gradient is-visible">Clip Two.</b>
                                                 <b class="theme-gradient is-hidden">Clip Three.</b>

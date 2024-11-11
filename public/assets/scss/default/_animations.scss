@@ -410,9 +410,11 @@ Primary style
 
 
 .cd-words-wrapper {
-    display: inline-block;
+    display: block; /* Заменяем inline-block на block для нормального переноса */
     position: relative;
     text-align: left;
+    white-space: normal; /* Разрешаем перенос строк */
+    word-wrap: break-word; /* Принудительный перенос длинных слов */
 }
 
 .cd-words-wrapper b {
