@@ -12283,7 +12283,11 @@ body.active-dark-mode.modal-open {
 .radial-progress {
   position: relative;
 }
-
+@media only screen and (max-width: 767px) {
+  .radial-progress {
+    display: inline-block;
+  }
+}
 .radial-progress .circle-text {
   position: absolute;
   top: 50%;
