@@ -22026,51 +22026,32 @@ body.active-light-mode .rbt-utilize-area .rbt-default-sidebar-list li.has-submen
     line-height: inherit; /* Наследует межстрочный интервал */
 }
 
-/* Медиазапрос для экранов до 768px */
-@media only screen and (max-width: 768px) {
+/* Для всех экранов, чтобы исправить перенос */
+h1.title {
+  white-space: normal; /* Разрешаем перенос текста */
+  word-wrap: break-word; /* Разбиваем слова, если они длинные */
+  word-break: break-word; /* Это также поможет в случае длинных слов, например в URL */
+}
 
-  /* Для заголовка h1 */
-  h1.title {
-    font-size: 30px;  /* Настроим нормальный размер шрифта */
-    white-space: normal;  /* Разрешаем перенос */
-    word-wrap: break-word;  /* Разбиваем длинные слова, но не даем 1-2 символам "выползать" */
-    line-height: 1.3;  /* Устанавливаем нормальное расстояние между строками */
-    word-break: break-word; /* Убираем длинные строки */
-  }
+.cd-words-wrapper {
+  white-space: normal !important; /* Убираем возможные ограничения */
+  word-wrap: break-word; /* Тоже разрешаем разбиение слов */
+}
 
-  /* Настроим сам контейнер .cd-headline */
-  .cd-headline {
-    font-size: 40px;
-    white-space: normal;  /* Текст можно переносить */
-    word-wrap: break-word;  /* Разрешаем перенос, но только там, где нужно */
-    line-height: 1.4;  /* Увеличиваем межстрочный интервал для легкости восприятия */
-  }
+.cd-headline {
+  white-space: normal; /* Разрешаем перенос текста и в анимации */
+  line-height: 1.3; /* Для нормального отображения текста */
+}
 
-  /* Настроим блок с словами .cd-words-wrapper */
-  .cd-words-wrapper {
-    display: inline-block;  /* Поставим в строку, чтобы анимация не ломалась */
-    position: relative;
-    width: auto;  /* Убираем фиксированную ширину */
-    max-width: 100%;  /* Даём свободу элементам по ширине */
-    white-space: normal;  /* Текст внутри может переноситься */
-    overflow: visible;  /* Смотрим, чтобы не обрезалось */
-  }
+.cd-headline b {
+  white-space: normal; /* Убираем nowrap, разрешаем перенос */
+  word-wrap: break-word; /* Длинные слова не выходят за пределы */
+}
 
-  /* Обновляем b, чтобы они могли корректно переноситься */
-  .cd-words-wrapper b {
-    display: inline-block;
-    position: relative;
-    white-space: normal;  /* Убираем nowrap, разрешая перенос строк */
-  }
-
-  /* Убедитесь, что элементы, которые скрыты, тоже не нарушают поведение */
-  .cd-words-wrapper b.is-hidden {
-    opacity: 0;
-    position: absolute;
-  }
-
-  .cd-words-wrapper b.is-visible {
-    opacity: 1;
-    position: relative;
-  }
+/* Важно: для .cd-headline.clip */
+.cd-headline.clip .cd-words-wrapper {
+  display: inline-block;
+  width: auto !important; /* Снимаем ограничения по ширине */
+  white-space: normal; /* Чтобы текст не был заперт */
+  overflow: visible; /* Смотрим, чтобы ничего не обрезалось */
 }
