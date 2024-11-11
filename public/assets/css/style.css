@@ -13842,7 +13842,7 @@ Timeline Area
   }
 }
 .single-timeline .single-content .inner .content .date-of-timeline.theme-gradient, .single-timeline .single-content .inner .content .counter-style-1 .date-of-timeline.count-number, .counter-style-1 .single-timeline .single-content .inner .content .date-of-timeline.count-number {
-  display: inline-block;
+  display: block !important;
 }
 .single-timeline .single-content .inner .content .title {
   margin-bottom: 0;
@@ -14073,6 +14073,12 @@ Timeline Area
 @media only screen and (max-width: 479px) {
   .clltoaction-style-default .theme-gradient, .clltoaction-style-default .counter-style-1 .count-number, .counter-style-1 .clltoaction-style-default .count-number {
     margin-bottom: 10px !important;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .theme-gradient,
+  .color-off {
+    display: block !important;  /* Обеспечиваем отдельные строки для текста */
   }
 }
 .clltoaction-style-default .content p {
@@ -16874,6 +16880,7 @@ body.active-light-mode .sign-up-box .signup-box-content .btn-border:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
   white-space: nowrap;
+  white-space: normal;  /* Разрешаем перенос строки на мобильных устройствах */
 }
 .rbt-utilize-area .rbt-gradient-border {
   background: linear-gradient(to right, var(--color-primary-gradient-start), var(--color-primary-gradient-end)) !important;
