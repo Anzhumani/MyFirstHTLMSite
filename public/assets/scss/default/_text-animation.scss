@@ -8,12 +8,14 @@
 @media only screen and (min-width: 768px) {
     .cd-intro {
         margin: 5em auto;
+        white-space: normal;
     }
 }
 
 @media only screen and (min-width: 1170px) {
     .cd-intro {
         margin: 6em auto;
+        white-space: normal;
     }
 }
 
@@ -26,24 +28,28 @@
     .cd-headline {
         font-size: 4.4rem;
         font-weight: 300;
+        white-space: normal;
     }
 }
 
 @media only screen and (min-width: 1170px) {
     .cd-headline {
         font-size: 48px;
+        white-space: normal;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .cd-headline {
         font-size: 40px;
+        white-space: normal;
     }
 }
 
 @media only screen and (max-width: 479px) {
     .cd-headline {
         font-size: 26px;
+        white-space: normal;
     }
 }
 
@@ -51,6 +57,7 @@
     display: inline-block;
     position: relative;
     text-align: left;
+    white-space: normal;
 }
 
 .cd-words-wrapper b {
