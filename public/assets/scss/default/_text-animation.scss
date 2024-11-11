@@ -85,8 +85,8 @@ xclip
 }
 
 .cd-headline.clip .cd-words-wrapper {
-    overflow: visible;
-    vertical-align: break-word;
+    overflow: hidden;
+    vertical-align: middle;
 }
 
 .cd-headline.clip .cd-words-wrapper::after {
@@ -106,4 +106,29 @@ xclip
 
 .cd-headline.clip b.is-visible {
     opacity: 1;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cd-words-wrapper {
+        display: block; /* Сделаем wrapper блочным элементом */
+        width: 100%; /* Устанавливаем 100% ширины, чтобы адаптировать под экран */
+    }
+
+    .cd-words-wrapper b {
+        display: block; /* Блочное отображение для каждого слова */
+        white-space: normal; /* Разрешаем перенос слов */
+        word-wrap: break-word; /* Переносим слова при необходимости */
+    }
+
+    .cd-headline.clip .cd-words-wrapper {
+        overflow: visible; /* Убираем скрытие переполненного контента */
+        overflow-wrap: break-word; /* Разрешаем перенос длинных слов */
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .cd-headline {
+        font-size: 22px; /* Уменьшаем шрифт на маленьких экранах */
+    }
 }
