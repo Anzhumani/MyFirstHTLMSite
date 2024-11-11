@@ -5,7 +5,7 @@
     margin: 4em auto;
 }
 
-@media only screen and (min-width: 0px) {
+@media only screen and (min-width: 768px) {
     .cd-intro {
         margin: 5em auto;
     }
@@ -22,7 +22,7 @@
     line-height: 1.2;
 }
 
-@media only screen and (min-width: 0px) {
+@media only screen and (min-width: 768px) {
     .cd-headline {
         font-size: 4.4rem;
         font-weight: 300;
@@ -35,7 +35,17 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .cd-headline {
+        font-size: 40px;
+    }
+}
 
+@media only screen and (max-width: 479px) {
+    .cd-headline {
+        font-size: 26px;
+    }
+}
 
 .cd-words-wrapper {
     display: inline-block;
