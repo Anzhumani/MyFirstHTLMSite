@@ -45,14 +45,14 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="inner text-center mt--60">
-                            <h1 class="title display-one">Техноло<br>гии будущего<br>
+                            <h1 class="title display-one">Технологии будущего<br>
                                 <span class="theme-gradient cd-headline clip is-full-width">
                                     <span class="cd-words-wrapper" style="width: 100%;">
                                         <b class="theme-gradient is-visible">Автоматизация</b>
                                         <b class="theme-gradient is-hidden">Оптимизация</b>
                                         <b class="theme-gradient is-hidden">Цифровизация</b>
                                     </span>
-                                </span><br><span class="color-off"><br>Настоящего</span>
+                                </span><br><span class="color-off">Настоящего</span>
                             </h1>
                             <p class="b1 desc-text">Омниканальные звонки и чаты для вашего бизнеса</p>
                             <div class="button-group">
