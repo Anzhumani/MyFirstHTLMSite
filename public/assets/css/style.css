@@ -22026,37 +22026,51 @@ body.active-light-mode .rbt-utilize-area .rbt-default-sidebar-list li.has-submen
     line-height: inherit; /* Наследует межстрочный интервал */
 }
 
-
-/* Media query для мобильных устройств */
+/* Медиазапрос для экранов до 768px */
 @media only screen and (max-width: 768px) {
+
+  /* Для заголовка h1 */
+  h1.title {
+    font-size: 30px;  /* Настроим нормальный размер шрифта */
+    white-space: normal;  /* Разрешаем перенос */
+    word-wrap: break-word;  /* Разбиваем длинные слова, но не даем 1-2 символам "выползать" */
+    line-height: 1.3;  /* Устанавливаем нормальное расстояние между строками */
+    word-break: break-word; /* Убираем длинные строки */
+  }
+
+  /* Настроим сам контейнер .cd-headline */
   .cd-headline {
     font-size: 40px;
-    white-space: normal;  /* Разрешаем перенос текста */
-    word-wrap: break-word; /* Разбиваем длинные слова */
-    width: 100%;  /* Убираем фиксированную ширину */
+    white-space: normal;  /* Текст можно переносить */
+    word-wrap: break-word;  /* Разрешаем перенос, но только там, где нужно */
+    line-height: 1.4;  /* Увеличиваем межстрочный интервал для легкости восприятия */
   }
 
+  /* Настроим блок с словами .cd-words-wrapper */
   .cd-words-wrapper {
-    display: block; /* Делает wrapper блочным элементом */
-    width: 100%; /* Убираем фиксированную ширину */
-    white-space: normal; /* Разрешаем перенос текста */
+    display: inline-block;  /* Поставим в строку, чтобы анимация не ломалась */
+    position: relative;
+    width: auto;  /* Убираем фиксированную ширину */
+    max-width: 100%;  /* Даём свободу элементам по ширине */
+    white-space: normal;  /* Текст внутри может переноситься */
+    overflow: visible;  /* Смотрим, чтобы не обрезалось */
   }
 
+  /* Обновляем b, чтобы они могли корректно переноситься */
   .cd-words-wrapper b {
-    display: inline-block;  /* Делаем b элемент блочным */
-    white-space: normal; /* Разрешаем перенос текста */
+    display: inline-block;
+    position: relative;
+    white-space: normal;  /* Убираем nowrap, разрешая перенос строк */
   }
 
-  h1.title {
-    font-size: 30px;
-    white-space: normal;  /* Разрешаем перенос текста */
-    word-wrap: break-word; /* Разбиваем длинные слова */
-    line-height: 1.5; /* Увеличиваем межстрочный интервал */
+  /* Убедитесь, что элементы, которые скрыты, тоже не нарушают поведение */
+  .cd-words-wrapper b.is-hidden {
+    opacity: 0;
+    position: absolute;
   }
 
-  .container {
-    width: 100%; /* Убираем фиксированную ширину */
-    padding-left: 15px;
-    padding-right: 15px;
+  .cd-words-wrapper b.is-visible {
+    opacity: 1;
+    position: relative;
   }
 }
