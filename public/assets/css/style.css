@@ -9573,7 +9573,7 @@ input[type=radio] ~ label::after {
 .rbt-modern-select .bootstrap-select .dropdown-menu li.no-results {
   padding: 4px 8px;
   background: transparent;
-  white-space: nowrap;
+  white-space: normal;
   font-size: 16px;
   color: var(--color-danger);
   padding-bottom: 10px;
