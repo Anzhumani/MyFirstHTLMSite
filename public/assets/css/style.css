@@ -270,9 +270,9 @@ pre.wp-block-code {
   margin: 20px 0 !important;
   overflow: auto;
   padding: 20px !important;
-  white-space: pre !important;
-  white-space: pre-wrap !important;
-  word-wrap: break-word !important;
+  white-space: normal;
+  white-space: normal;
+  word-wrap: normal;
   color: var(--color-body) !important;
   background: var(--color-light);
   border-radius: 4px;
@@ -16980,7 +16980,7 @@ body.active-light-mode .sign-up-box .signup-box-content .btn-border:hover {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  word-wrap: break-word;
+  word-wrap: normal;
   background-color: var(--color-blackest);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
