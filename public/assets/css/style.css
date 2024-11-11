@@ -9573,7 +9573,7 @@ input[type=radio] ~ label::after {
 .rbt-modern-select .bootstrap-select .dropdown-menu li.no-results {
   padding: 4px 8px;
   background: transparent;
-  white-space: normal;
+  white-space: nowrap;
   font-size: 16px;
   color: var(--color-danger);
   padding-bottom: 10px;
@@ -10170,7 +10170,7 @@ body.sal-disabled [data-sal|=flip] {
 .cd-words-wrapper b {
   display: inline-block;
   position: absolute;
-  white-space: normal;
+  white-space: nowrap;
   left: 0;
   top: 0;
 }
@@ -13936,7 +13936,7 @@ Timeline Area
   justify-content: center;
   overflow: hidden;
   text-align: center;
-  white-space: normal;
+  white-space: nowrap;
   transition: width 0.6s ease;
   background-image: radial-gradient(circle farthest-corner at 0%, var(--color-primary) 25%, var(--color-secondary) 45%, var(--color-primary) 65%, var(--color-primary) 85%);
   background-attachment: fixed;
@@ -16873,7 +16873,7 @@ body.active-light-mode .sign-up-box .signup-box-content .btn-border:hover {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
-  white-space: normal;
+  white-space: nowrap;
 }
 .rbt-utilize-area .rbt-gradient-border {
   background: linear-gradient(to right, var(--color-primary-gradient-start), var(--color-primary-gradient-end)) !important;
