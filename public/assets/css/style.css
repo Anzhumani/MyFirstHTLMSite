@@ -10154,6 +10154,8 @@ body.sal-disabled [data-sal|=flip] {
 @media only screen and (max-width: 768px) {
   .cd-headline {
     font-size: 40px;
+    white-space: normal;  /* Разрешаем перенос текста */
+    word-wrap: break-word; /* Разрешаем разбиение слов на несколько строк */
   }
 }
 @media only screen and (max-width: 479px) {
