@@ -10170,7 +10170,7 @@ body.sal-disabled [data-sal|=flip] {
 .cd-words-wrapper b {
   display: inline-block;
   position: absolute;
-  white-space: nowrap;
+  white-space: normal;
   left: 0;
   top: 0;
 }
