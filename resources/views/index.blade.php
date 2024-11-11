@@ -47,7 +47,7 @@
                         <div class="inner text-center mt--60">
                             <h1 class="title display-one">Технологии будущего<br>
                                 <span class="theme-gradient cd-headline clip is-full-width">
-                                    <span class="cd-words-wrapper" style="width: 400px;">
+                                    <span class="cd-words-wrapper" style="width: 100%;">
                                         <b class="theme-gradient is-visible">Автоматизация</b>
                                         <b class="theme-gradient is-hidden">Оптимизация</b>
                                         <b class="theme-gradient is-hidden">Цифровизация</b>
