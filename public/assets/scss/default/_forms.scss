@@ -437,7 +437,7 @@ input[type="radio"] {
                 &.no-results {
                     padding: 4px 8px;
                     background: transparent;
-                    white-space: normal;
+                    white-space: nowrap;
                     font-size: 16px;
                     color: var(--color-danger);
                     padding-bottom: 10px;
