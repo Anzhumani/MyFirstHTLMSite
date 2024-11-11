@@ -10170,7 +10170,7 @@ body.sal-disabled [data-sal|=flip] {
 .cd-words-wrapper b {
   display: inline-block;
   position: absolute;
-  white-space: normal;
+  white-space: nowrap;
   left: 0;
   top: 0;
 }
@@ -13936,7 +13936,7 @@ Timeline Area
   justify-content: center;
   overflow: hidden;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
   transition: width 0.6s ease;
   background-image: radial-gradient(circle farthest-corner at 0%, var(--color-primary) 25%, var(--color-secondary) 45%, var(--color-primary) 65%, var(--color-primary) 85%);
   background-attachment: fixed;
