@@ -22026,32 +22026,44 @@ body.active-light-mode .rbt-utilize-area .rbt-default-sidebar-list li.has-submen
     line-height: inherit; /* Наследует межстрочный интервал */
 }
 
-/* Для всех экранов, чтобы исправить перенос */
-h1.title {
-  white-space: normal; /* Разрешаем перенос текста */
-  word-wrap: break-word; /* Разбиваем слова, если они длинные */
-  word-break: break-word; /* Это также поможет в случае длинных слов, например в URL */
-}
-
-.cd-words-wrapper {
-  white-space: normal !important; /* Убираем возможные ограничения */
-  word-wrap: break-word; /* Тоже разрешаем разбиение слов */
-}
-
+/* Восстанавливаем стили для анимации */
 .cd-headline {
-  white-space: normal; /* Разрешаем перенос текста и в анимации */
-  line-height: 1.3; /* Для нормального отображения текста */
+  font-size: 3rem;
+  line-height: 1.2;
+  white-space: nowrap; /* Для анимации нам нужно, чтобы текст не переносился */
+  overflow: hidden; /* Скрываем текст, который выходит за пределы */
+  position: relative;
 }
 
-.cd-headline b {
-  white-space: normal; /* Убираем nowrap, разрешаем перенос */
-  word-wrap: break-word; /* Длинные слова не выходят за пределы */
-}
-
-/* Важно: для .cd-headline.clip */
 .cd-headline.clip .cd-words-wrapper {
   display: inline-block;
-  width: auto !important; /* Снимаем ограничения по ширине */
-  white-space: normal; /* Чтобы текст не был заперт */
-  overflow: visible; /* Смотрим, чтобы ничего не обрезалось */
+  width: auto !important; /* Убираем фиксированную ширину */
+  overflow: hidden; /* Скрываем лишний текст */
+  white-space: nowrap; /* Текст не должен переноситься для анимации */
+}
+
+/* Стили для мобильных устройств */
+@media only screen and (max-width: 768px) {
+  /* Восстанавливаем перенос строк для мобильных, но при этом сохраняем анимацию */
+  .cd-headline {
+    white-space: normal !important; /* Разрешаем перенос строк */
+    line-height: 1.4; /* Увеличиваем межстрочный интервал для лучшего восприятия */
+  }
+
+  .cd-headline.clip .cd-words-wrapper {
+    white-space: normal !important; /* Разрешаем перенос строк */
+    width: 100% !important; /* Убираем ограничения по ширине */
+  }
+}
+
+/* Для текста внутри <b> */
+.cd-words-wrapper b {
+  white-space: nowrap; /* Здесь мы не хотим, чтобы слова переносились */
+  word-wrap: break-word; /* Слова будут обрезаться и переноситься */
+}
+
+/* Для предотвращения странных сдвигов */
+.cd-headline.clip b.is-visible {
+  position: relative;
+  opacity: 1;
 }
