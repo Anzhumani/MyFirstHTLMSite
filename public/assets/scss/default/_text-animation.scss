@@ -1,5 +1,4 @@
-// text blinking start form hear
-
+// Начало кода для текстового мерцания
 
 .cd-intro {
     margin: 4em auto;
@@ -20,6 +19,13 @@
 .cd-headline {
     font-size: 3rem;
     line-height: 1.2;
+    
+    // Адаптация для .display-one
+    &.display-one {
+        font-size: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -51,18 +57,32 @@
     display: inline-block;
     position: relative;
     text-align: left;
-}
+    
+    // Адаптация для .display-one
+    &.display-one {
+        font-size: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+    }
 
-.cd-words-wrapper b {
-    display: inline-block;
-    position: absolute;
-    white-space: nowrap;
-    left: 0;
-    top: 0;
-}
+    b {
+        display: inline-block;
+        position: absolute;
+        white-space: nowrap;
+        left: 0;
+        top: 0;
+        
+        // Адаптация для .display-one
+        &.display-one {
+            font-size: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+        }
 
-.cd-words-wrapper b.is-visible {
-    position: relative;
+        &.is-visible {
+            position: relative;
+        }
+    }
 }
 
 .no-js .cd-words-wrapper b {
