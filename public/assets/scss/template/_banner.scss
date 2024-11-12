@@ -82,11 +82,11 @@
         font-size: 30px;
         margin-bottom: 15px !important;
     }
-    // br {
-    //     @media #{$large-mobile} {
-    //         display: none;
-    //     } 
-    // }
+    br {
+        @media #{$large-mobile} {
+            display: block;
+        } 
+    }
 }
 
 .display-two {
