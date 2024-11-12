@@ -17,39 +17,47 @@
 }
 
 .cd-headline {
+    /* 
+    Закомментировано, чтобы текст наследовал размер родительского контейнера (h1).
     font-size: 3rem;
+    */
     line-height: 1.2;
-    
-    // Адаптация для .display-one
-    &.display-one {
-        font-size: inherit;
-        font-weight: inherit;
-        line-height: inherit;
-    }
 }
 
 @media only screen and (min-width: 768px) {
     .cd-headline {
+        /* 
+        Закомментировано, чтобы текст наследовал размер родительского контейнера (h1).
         font-size: 4.4rem;
+        */
         font-weight: 300;
     }
 }
 
 @media only screen and (min-width: 1170px) {
     .cd-headline {
+        /* 
+        Закомментировано, чтобы текст наследовал размер родительского контейнера (h1).
         font-size: 48px;
+        */
     }
 }
 
 @media only screen and (max-width: 768px) {
     .cd-headline {
+        /* 
+        Закомментировано, чтобы текст наследовал размер родительского контейнера (h1).
         font-size: 40px;
+        */
     }
 }
 
 @media only screen and (max-width: 479px) {
     .cd-headline {
+        /* 
+        Закомментировано, чтобы текст наследовал размер родительского контейнера (h1).
         font-size: 26px;
+        */
     }
 }
 
@@ -57,32 +65,18 @@
     display: inline-block;
     position: relative;
     text-align: left;
-    
-    // Адаптация для .display-one
-    &.display-one {
-        font-size: inherit;
-        font-weight: inherit;
-        line-height: inherit;
-    }
+}
 
-    b {
-        display: inline-block;
-        position: absolute;
-        white-space: nowrap;
-        left: 0;
-        top: 0;
-        
-        // Адаптация для .display-one
-        &.display-one {
-            font-size: inherit;
-            font-weight: inherit;
-            line-height: inherit;
-        }
+.cd-words-wrapper b {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    left: 0;
+    top: 0;
+}
 
-        &.is-visible {
-            position: relative;
-        }
-    }
+.cd-words-wrapper b.is-visible {
+    position: relative;
 }
 
 .no-js .cd-words-wrapper b {
