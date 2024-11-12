@@ -54,7 +54,7 @@
                                     </span>
                                 </span><br><span class="color-off">Настоящего</span>
                             </h1>
-                            <p class="b1 desc-text">Омниканальные звонки и чаты для вашего бизнеса</p>
+                            <p class="b1 desc-text">Контактный центр нового поколения для вашего бизнеса, обрабатывающий звонки и чаты с помощью интеллектуальных технологий</p>
                             <div class="button-group">
                                 <a class="btn-default bg-light-gradient btn-large" href="{{ asset('textgenerator') }}">
                                     <div class="has-bg-light"></div>
@@ -90,10 +90,12 @@
                     <div class="col-lg-12">
                         <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                             <h4 class="subtitle">
-                                <span class="theme-gradient">МЫ ПРЕДЛАГАЕМ ВАМ</span>
+                                <span class="theme-gradient">ЧТО МЫ ПРЕДЛАГАЕМ</span>
                             </h4>
-                            <h2 class="title w-600 mb--20">Комплексные ИИ решения для контактных центров</h2>
-                            <p class="description b1">Мы предлагаем полный спектр услуг по обработке вызовов и сообщений, чтобы ваш бизнес был всегда на связи с клиентами</p>
+                            <h2 class="title w-600 mb--20">Решения, которые обслуживают клиентов без человеческих слабостей</h2>
+                            <p class="description b1">Нейросети не нервничают, не болеют и не жалуются. Они не пропускают звонки,
+                                 не забывают важную информацию и не ставят клиентов в очередь. С ними ваш контактный центр 
+                                 работает без сбоев и экономит бюджет</p>
                         </div>
                     </div>
                 </div>
@@ -106,9 +108,9 @@
                             </div>
                             <div class="content">
                                 <h4 class="title w-600">
-                                    <a href="#">Effortless Content AI</a>
+                                    <a href="#">Чат-боты для вашего сайта</a>
                                 </h4>
-                                <p class="description b1 color-gray mb--0">Let our AI-powered service take the hard work out of content creation. Get started today with AI.</p>
+                                <p class="description b1 color-gray mb--0">Чат-боты на основе нейросетей, которые распознают любые слова и быстро понимают суть запроса.</p>
                             </div>
                         </div>
                     </div>
@@ -120,9 +122,9 @@
                             </div>
                             <div class="content">
                                 <h4 class="title w-600">
-                                    <a href="#">Your Words, Our Tech</a>
+                                    <a href="#">Чат-боты для SMS и мессенджеров</a>
                                 </h4>
-                                <p class="description b1 color-gray mb--0">Discover how AI can transform your ideas into engaging with our qualitifull service for a better content.</p>
+                                <p class="description b1 color-gray mb--0">Гибкость сценариев для любого бизнеса: отправка SMS после звонка, настройка обратных звонков через мессенджеры и множество других опций для клиентского сервиса</p>
                             </div>
                         </div>
                     </div>
@@ -134,9 +136,9 @@
                             </div>
                             <div class="content">
                                 <h4 class="title w-600">
-                                    <a href="#">AI-Powered Writing </a>
+                                    <a href="#">Интеллектуальные входящие вызовы</a>
                                 </h4>
-                                <p class="description b1 color-gray mb--0">Access AI-generated content for your blogs, websites, and more with our qualitifull convenient service.</p>
+                                <p class="description b1 color-gray mb--0">Полная автоматизация без очередей или перевод на реального оператора. Голос диктора с сохранением интонаций и акцентов, распознавание речи в реальном времени</p>
                             </div>
                         </div>
                     </div>
@@ -148,9 +150,9 @@
                             </div>
                             <div class="content">
                                 <h4 class="title w-600">
-                                    <a href="#">AI Generation Simple</a>
+                                    <a href="#">Эффективные исходящие звонки</a>
                                 </h4>
-                                <p class="description b1 color-gray mb--0">Experience the ease of content creation with our AI service. Write less, achieve more.</p>
+                                <p class="description b1 color-gray mb--0">Автоматический сброс автоответчиков и масштабируемость исходящих вызовов на любые объемы. Подключение вашей или нашей телефонии</p>
                             </div>
                         </div>
                     </div>
@@ -162,9 +164,9 @@
                             </div>
                             <div class="content">
                                 <h4 class="title w-600">
-                                    <a href="#">Quality AI Content</a>
+                                    <a href="#">Масштабируемые решения и гибкая интеграция</a>
                                 </h4>
-                                <p class="description b1 color-gray mb--0">Get professionally written content in no time with our AI service. Quality meets speed.</p>
+                                <p class="description b1 color-gray mb--0">Поддержка масштабирования под любой объем запросов и интеграция с CRM, телефонией и другими системами бизнеса</p>
                             </div>
                         </div>
                     </div>
@@ -176,9 +178,9 @@
                             </div>
                             <div class="content">
                                 <h4 class="title w-600">
-                                    <a href="#">Your Writing Assistant</a>
+                                    <a href="#">Обработка любых запросов с помощью ИИ</a>
                                 </h4>
-                                <p class="description b1 color-gray mb--0">Collaborate with AI to generate content that resonates with your audience. Try it now.</p>
+                                <p class="description b1 color-gray mb--0">Интеллектуальные системы, которые распознают любые фразы в чате и могут клонировать голос с сохранением интонации, делая общение с клиентами максимально естественным</p>
                             </div>
                         </div>
                     </div>
