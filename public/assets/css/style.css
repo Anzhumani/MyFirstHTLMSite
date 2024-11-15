@@ -10136,29 +10136,44 @@ body.sal-disabled [data-sal|=flip] {
   }
 }
 .cd-headline {
+  /* 
+  Закомментировано, чтобы текст наследовал размер родительского контейнера (h1).
   font-size: 3rem;
+  */
   line-height: 1.2;
 }
 
 @media only screen and (min-width: 768px) {
   .cd-headline {
+    /* 
+    Закомментировано, чтобы текст наследовал размер родительского контейнера (h1).
     font-size: 4.4rem;
+    */
     font-weight: 300;
   }
 }
 @media only screen and (min-width: 1170px) {
   .cd-headline {
+    /* 
+    Закомментировано, чтобы текст наследовал размер родительского контейнера (h1).
     font-size: 48px;
+    */
   }
 }
 @media only screen and (max-width: 768px) {
   .cd-headline {
+    /* 
+    Закомментировано, чтобы текст наследовал размер родительского контейнера (h1).
     font-size: 40px;
+    */
   }
 }
 @media only screen and (max-width: 479px) {
   .cd-headline {
+    /* 
+    Закомментировано, чтобы текст наследовал размер родительского контейнера (h1).
     font-size: 26px;
+    */
   }
 }
 .cd-words-wrapper {
@@ -10443,7 +10458,7 @@ xclip
 }
 
 .rainbow-header.sticky {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   background-color: var(--color-dark) !important;
@@ -17760,7 +17775,7 @@ body.active-light-mode .sign-up-box .signup-box-content .btn-border:hover {
 }
 @media only screen and (max-width: 575px) {
   .display-one br {
-    display: none;
+    display: block;
   }
 }
 
@@ -22016,12 +22031,3 @@ body.active-light-mode .rbt-utilize-area .rbt-default-sidebar-list li.has-submen
 }
 
 /*# sourceMappingURL=style.css.map */
-
-/* Указываем дочерним элементам наследовать размер и вес H1 */
-.display-one .cd-headline,
-.display-one .cd-words-wrapper,
-.display-one .cd-headline b {
-    font-size: inherit; /* Использует тот же размер, что и .display-one */
-    font-weight: inherit; /* Наследует жирность текста */
-    line-height: inherit; /* Наследует межстрочный интервал */
-}

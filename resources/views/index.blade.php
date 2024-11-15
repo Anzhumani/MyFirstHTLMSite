@@ -49,12 +49,16 @@
                                 <span class="theme-gradient cd-headline clip is-full-width">
                                     <span class="cd-words-wrapper" style="width: 100%;">
                                         <b class="theme-gradient is-visible">Автоматизация</b>
+                                        <b class="theme-gradient is-hidden">Экономия</b>
                                         <b class="theme-gradient is-hidden">Оптимизация</b>
-                                        <b class="theme-gradient is-hidden">Цифровизация</b>
+                                        <b class="theme-gradient is-hidden">Эффективность</b>
+                                        <b class="theme-gradient is-hidden">Надежность</b>
+                                        <b class="theme-gradient is-hidden">Масштабируемость</b>
+                                        <b class="theme-gradient is-hidden">Поддержка</b>
                                     </span>
                                 </span><br><span class="color-off">Настоящего</span>
                             </h1>
-                            <p class="b1 desc-text">Контактный центр нового поколения для вашего бизнеса, обрабатывающий звонки и чаты с помощью интеллектуальных технологий</p>
+                            <p class="b1 desc-text">Контактный центр нового поколения для вашего бизнеса</p>
                             <div class="button-group">
                                 <a class="btn-default bg-light-gradient btn-large" href="{{ asset('textgenerator') }}">
                                     <div class="has-bg-light"></div>
@@ -92,10 +96,8 @@
                             <h4 class="subtitle">
                                 <span class="theme-gradient">ЧТО МЫ ПРЕДЛАГАЕМ</span>
                             </h4>
-                            <h2 class="title w-600 mb--20">Решения, которые обслуживают клиентов без человеческих слабостей</h2>
-                            <p class="description b1">Нейросети не нервничают, не болеют и не жалуются. Они не пропускают звонки,
-                                 не забывают важную информацию и не ставят клиентов в очередь. С ними ваш контактный центр 
-                                 работает без сбоев и экономит бюджет</p>
+                            <h2 class="title w-600 mb--20">Решения, которые заменяют штат операторов и обеспечивают стабильность 24/7</h2>
+                            <p class="description b1">Гибкие текстовые и голосовые решения, которые легко интегрируются и адаптируются</p>
                         </div>
                     </div>
                 </div>
@@ -104,13 +106,13 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="700">
                         <div class="service service__style--1 bg-color-blackest radius mt--25 text-center rbt-border-none variation-4 bg-flashlight">
                             <div class="icon">
-                                <i class="feather-activity"></i>
+                                <i class="feather-message-circle"></i>
                             </div>
                             <div class="content">
                                 <h4 class="title w-600">
-                                    <a href="#">Чат-боты для вашего сайта</a>
+                                    <a href="#">Ассистенты для сайта</a>
                                 </h4>
-                                <p class="description b1 color-gray mb--0">Чат-боты на основе нейросетей, которые распознают любые слова и быстро понимают суть запроса.</p>
+                                <p class="description b1 color-gray mb--0">Чат-боты на основе нейросетей, которые понимают любые формулировки запросов</p>
                             </div>
                         </div>
                     </div>
@@ -118,13 +120,13 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                         <div class="service service__style--1 bg-color-blackest radius mt--25 text-center rbt-border-none variation-4 bg-flashlight">
                             <div class="icon">
-                                <i class="feather-cast"></i>
+                                <i class="feather-mail"></i>
                             </div>
                             <div class="content">
                                 <h4 class="title w-600">
-                                    <a href="#">Чат-боты для SMS и мессенджеров</a>
+                                    <a href="#">Мессенджеры и SMS</a>
                                 </h4>
-                                <p class="description b1 color-gray mb--0">Гибкость сценариев для любого бизнеса: отправка SMS после звонка, настройка обратных звонков через мессенджеры и множество других опций для клиентского сервиса</p>
+                                <p class="description b1 color-gray mb--0">Чат-боты для мессенджеров и SMS, которые могут продавать, бронировать и обрабатывать заказы</p>
                             </div>
                         </div>
                     </div>
@@ -132,13 +134,13 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">
                         <div class="service service__style--1 bg-color-blackest radius mt--25 text-center rbt-border-none variation-4 bg-flashlight">
                             <div class="icon">
-                                <i class="feather-map"></i>
+                                <i class="feather-phone-outgoing"></i>
                             </div>
                             <div class="content">
                                 <h4 class="title w-600">
-                                    <a href="#">Интеллектуальные входящие вызовы</a>
+                                    <a href="#">Исходящие вызовы</a>
                                 </h4>
-                                <p class="description b1 color-gray mb--0">Полная автоматизация без очередей или перевод на реального оператора. Голос диктора с сохранением интонаций и акцентов, распознавание речи в реальном времени</p>
+                                <p class="description b1 color-gray mb--0">Передовые технологии распознавания речи и клонирования голоса, которые заменяют операторов</p>
                             </div>
                         </div>
                     </div>
@@ -146,13 +148,13 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="700">
                         <div class="service service__style--1 bg-color-blackest radius mt--25 text-center rbt-border-none variation-4 bg-flashlight">
                             <div class="icon">
-                                <i class="feather-loader"></i>
+                                <i class="feather-phone-incoming"></i>
                             </div>
                             <div class="content">
                                 <h4 class="title w-600">
-                                    <a href="#">Эффективные исходящие звонки</a>
+                                    <a href="#">Входящие вызовы</a>
                                 </h4>
-                                <p class="description b1 color-gray mb--0">Автоматический сброс автоответчиков и масштабируемость исходящих вызовов на любые объемы. Подключение вашей или нашей телефонии</p>
+                                <p class="description b1 color-gray mb--0">Одновременная обработка любых входящих вызовов без очередей и ожидания оператора</p>
                             </div>
                         </div>
                     </div>
@@ -160,13 +162,13 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                         <div class="service service__style--1 bg-color-blackest radius mt--25 text-center rbt-border-none variation-4 bg-flashlight">
                             <div class="icon">
-                                <i class="feather-speaker"></i>
+                                <i class="feather-link"></i>
                             </div>
                             <div class="content">
                                 <h4 class="title w-600">
-                                    <a href="#">Масштабируемые решения и гибкая интеграция</a>
+                                    <a href="#">Гибкие интеграции</a>
                                 </h4>
-                                <p class="description b1 color-gray mb--0">Поддержка масштабирования под любой объем запросов и интеграция с CRM, телефонией и другими системами бизнеса</p>
+                                <p class="description b1 color-gray mb--0">Интегрируем решения с вашей инфраструктурой, учитывая все особенности бизнес-процессов</p>
                             </div>
                         </div>
                     </div>
@@ -174,13 +176,13 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">
                         <div class="service service__style--1 bg-color-blackest radius mt--25 text-center rbt-border-none variation-4 bg-flashlight">
                             <div class="icon">
-                                <i class="feather-terminal"></i>
+                                <i class="feather-cpu"></i>
                             </div>
                             <div class="content">
                                 <h4 class="title w-600">
-                                    <a href="#">Обработка любых запросов с помощью ИИ</a>
+                                    <a href="#">Передовые технологии</a>
                                 </h4>
-                                <p class="description b1 color-gray mb--0">Интеллектуальные системы, которые распознают любые фразы в чате и могут клонировать голос с сохранением интонации, делая общение с клиентами максимально естественным</p>
+                                <p class="description b1 color-gray mb--0">ИИ-технологии, которые меняют представление о возможностях виртуальных ассистентов</p>
                             </div>
                         </div>
                     </div>
@@ -203,9 +205,9 @@
                     <div class="col-lg-12">
                         <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                             <h4 class="subtitle ">
-                                <span class="theme-gradient">HOW IT WORKS</span>
+                                <span class="theme-gradient">ПРОЕКТ ЗА НЕСКОЛЬКО ШАГОВ</span>
                             </h4>
-                            <h2 class="title w-600 mb--20">Guide Our AI to Create Your Copy</h2>
+                            <h2 class="title w-600 mb--20">Быстро. Легко. Индивидуально.</h2>
                         </div>
                     </div>
                 </div>
@@ -215,7 +217,7 @@
                             <div class="row row--0">
                                 <div class="col-lg-4 col-md-4 rainbow-timeline-single dark-line">
                                     <div class="rainbow-timeline">
-                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">1.Select template</h6>
+                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">1.Разработка скрипта</h6>
                                         <div class="progress-line">
                                             <div class="line-inner"></div>
                                         </div>
@@ -224,12 +226,12 @@
                                                 <div class="dot-inner"></div>
                                             </div>
                                         </div>
-                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Easily Select Templates for Website Content.</p>
+                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Разрабатываем скрипт,  учитывая ваши уникальные требования</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 rainbow-timeline-single dark-line">
                                     <div class="rainbow-timeline">
-                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">2.Describe topic</h6>
+                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">2.Интеграция с системой</h6>
                                         <div class="progress-line">
                                             <div class="line-inner"></div>
                                         </div>
@@ -238,12 +240,12 @@
                                                 <div class="dot-inner"></div>
                                             </div>
                                         </div>
-                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">All Feature available features in Essentials.</p>
+                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Интегрируем решения в вашу существующую систему, учитывая все особенности</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 rainbow-timeline-single dark-line">
                                     <div class="rainbow-timeline">
-                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">3.Generate content</h6>
+                                        <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">3.Тестирование и запуск</h6>
                                         <div class="progress-line">
                                             <div class="line-inner"></div>
                                         </div>
@@ -252,16 +254,16 @@
                                                 <div class="dot-inner"></div>
                                             </div>
                                         </div>
-                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Popular Feature available features in Essentials.</p>
+                                        <p class="description" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Проводим тестирование и обеспечиваем быстрый запуск проекта</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="button-group mt--50 text-center">
-                            <a class="btn-default btn-large" href="{{ asset('textgenerator') }}">Start writing for free</a>
+                            <a class="btn-default btn-large" href="{{ asset('textgenerator') }}">Прочитать как это работает</a>
                             <a class="btn-default btn-large btn-border popup-video" href="{{ asset('https://www.youtube.com/watch?v=tj9-MGHCs38') }}"><span>
                                     <i class="feather-play"></i>
-                                </span> See action in video</a>
+                                </span>Посмотреть как это работает</a>
                         </div>
                     </div>
                 </div>
@@ -289,15 +291,15 @@
                             </div>
                             <div class="col-lg-12 col-xl-6 col-12">
                                 <div class="split-inner">
-                                    <h4 class="title" data-sal="slide-up" data-sal-duration="400" data-sal-delay="200">Instant Content with AI</h4>
-                                    <p class="description" data-sal="slide-up" data-sal-duration="400" data-sal-delay="300">Unlock Conversion-Driven Content: Business Bios, Facebook Ads, Product Descriptions, Emails, Landing Pages, Social Ads, and Beyond.</p>
+                                    <h4 class="title" data-sal="slide-up" data-sal-duration="400" data-sal-delay="200">Создаем будущее общения с клиентами</h4>
+                                    <p class="description" data-sal="slide-up" data-sal-duration="400" data-sal-delay="300">Этот проект появился из стремления сделать общение с клиентами проще, быстрее и доступнее для всех. Мы верим, что инновации могут не только улучшать процессы, но и приносить реальную пользу бизнесу</p>
                                     <ul class="split-list" data-sal="slide-up" data-sal-duration="400" data-sal-delay="350">
-                                        <li>- Craft Articles in Under 20 Seconds.</li>
-                                        <li>- Reclaim Hundreds of Valuable Hours with AI</li>
-                                        <li>- Elevate Copywriting with Rewriter.</li>
+                                        <li>- Искусственный интеллект, который работает</li>
+                                        <li>- Голосовые и текстовые решения для всех</li>
+                                        <li>- Экономия времени и расходов на персонал</li>
                                     </ul>
                                     <div class="view-more-button mt--35" data-sal="slide-up" data-sal-duration="400" data-sal-delay="400">
-                                        <a class="btn-default" href="{{ asset('contact') }}">Contact With Us</a>
+                                        <a class="btn-default" href="{{ asset('contact') }}">Обсудим ваш проект?</a>
                                     </div>
                                 </div>
                             </div>
@@ -321,9 +323,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title text-center" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">
-                            <h4 class="subtitle "><span class="theme-gradient">Pricing</span></h4>
-                            <h2 class="title w-600 mb--20">Commence Content Journey with AI</h2>
-                            <p class="description b1">Collaborate with AI to generate content that resonates.</p>
+                            <h4 class="subtitle "><span class="theme-gradient">Цены</span></h4>
+                            <h2 class="title w-600 mb--20">Запускайте проекты с минимальными затратами</h2>
+                            <p class="description b1">Гибкие тарифы для старта и индивидуальные решения</p>
                         </div>
                     </div>
                 </div>
