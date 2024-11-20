@@ -5,12 +5,12 @@
                 <div class="col-lg-12">
                     <div class="inner">
                         <div class="content">
-                            <span class="rainbow-badge">Limited Time Offer</span>
-                            <span class="news-text">Intro price. Get ChatenAI for Big Sale -95% off.</span>
+                            <span class="rainbow-badge">до 31.12.2024</span>
+                            <span class="news-text">Бесплатная разработка и запуск проекта!</span>
                         </div>
                         <div class="right-button">
                             <a class="btn-read-more" href="#">
-                                <span>Purchase Now <i class="feather-arrow-right"></i></span>
+                                <span>Подробнее об акции<i class="feather-arrow-right"></i></span>
                             </a>
                         </div>
                     </div>

@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\GeneratorController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\CallbackRequestController;
 
 Route::controller(HomeController::class)->group(function () {
 Route::get('/', 'index')->name('index');
@@ -59,3 +60,6 @@ Route::prefix('dashboard')->group(function () {
         
     });
 });
+
+// Отправка формы создания обратного звонка
+Route::post('/callback-requests', [CallbackRequestController::class, 'store'])->name('callback_requests.store');

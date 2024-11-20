@@ -32,6 +32,7 @@
       chatenaiJs.lightBoxJs();
       chatenaiJs.slickSliderActivation();
       chatenaiJs.radialProgress();
+      chatenaiJs.callbackForm(); // Новый метод
       chatenaiJs.contactForm();
       chatenaiJs.menuCurrentLink();
       chatenaiJs.onePageNav();
@@ -655,6 +656,97 @@
         }
       );
     },
+
+
+
+    callbackForm: function () {
+      $(".newsletter-form").on("submit", function (e) {
+        e.preventDefault();
+        var _self = $(this);
+        var submitButton = _self.find('button[type="submit"]');
+      
+        // Очищаем предыдущие ошибки
+        _self.find("input").removeAttr("style");
+        _self.find(".error-msg, .success-msg").remove();
+      
+        // Деактивируем кнопку отправки
+        submitButton.attr("disabled", "disabled");
+      
+        var data = _self.serialize();
+      
+        // Отправка AJAX-запроса
+        $.ajax({
+          url: "/callback-requests",
+          type: "POST",
+          dataType: "json",
+          data: data,
+          headers: {
+            "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
+            "Accept": "application/json",
+            "X-Requested-With": "XMLHttpRequest",
+          },
+          success: function (response) {
+            // Активируем кнопку отправки
+            submitButton.removeAttr("disabled");
+          
+            // Отладочное сообщение
+            console.log("Success Response:", response);
+          
+            if (response.success) {
+              // Уведомление об успешной отправке
+              _self
+                .find(".form-group")
+                .after('<div class="success-msg"><p>' + response.message + "</p></div>");
+              _self[0].reset(); // Сбрасываем форму
+          
+              setTimeout(function () {
+                $(".success-msg").fadeOut("slow");
+              }, 5000);
+            } else {
+              // Уведомление об ошибке
+              _self
+                .find(".form-group")
+                .after('<div class="error-msg"><p>' + response.message + "</p></div>");
+            }
+          },
+          error: function (xhr) {
+            submitButton.removeAttr("disabled");
+            
+            console.log("HTTP Status:", xhr.status);
+            console.log("Response Text:", xhr.responseText);
+          
+            if (xhr.responseJSON && xhr.responseJSON.message) {
+              // Используем сообщение из JSON-ответа сервера
+              _self
+                .find(".form-group")
+                .after('<div class="error-msg"><p>' + xhr.responseJSON.message + "</p></div>");
+            } else if (!xhr.responseJSON && xhr.responseText) {
+              try {
+                // Парсим текст ответа, если JSON отсутствует
+                var parsedResponse = JSON.parse(xhr.responseText);
+                if (parsedResponse.message) {
+                  _self
+                    .find(".form-group")
+                    .after('<div class="error-msg"><p>' + parsedResponse.message + "</p></div>");
+                }
+              } catch (e) {
+                console.error("Ошибка парсинга JSON:", e);
+                _self
+                  .find(".form-group")
+                  .after('<div class="error-msg"><p>Что-то пошло не так. Попробуйте снова.</p></div>');
+              }
+            } else {
+              // Общая ошибка
+              _self
+                .find(".form-group")
+                .after('<div class="error-msg"><p>Что-то пошло не так. Попробуйте снова.</p></div>');
+            }
+          },          
+        });
+      });
+    },
+
+
 
     contactForm: function () {
       $(".rainbow-dynamic-form").on("submit", function (e) {
