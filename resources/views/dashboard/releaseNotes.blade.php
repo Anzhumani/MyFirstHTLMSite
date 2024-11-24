@@ -1,7 +1,8 @@
-@extends('layout.layout3')
+@extends('layout.layout4')
 
 @php
-$headTitle = 'Releasse Notes';
+$headTitle = 'Релизы';
+$header = 'header2';
 @endphp
 
 @section('content')
@@ -11,11 +12,10 @@ $headTitle = 'Releasse Notes';
     <div class="rbt-daynamic-page-content center-width">
 
         <!-- Dashboard Center Content -->
-        <div class="rbt-dashboard-content">
             <div class="banner-area">
                 <!-- ChatenAI small Slider -->
                 <div class="settings-area">
-                    <h3 class="title">Releasse Notes</h3>
+                    <h3 class="title">Описание релизов</h3>
                 </div>
             </div>
             <div class="content-page pb--50">
@@ -299,8 +299,6 @@ $headTitle = 'Releasse Notes';
                     </div>
                 </div>
             </div>
-        </div>
-
     </div>
 </div>
 

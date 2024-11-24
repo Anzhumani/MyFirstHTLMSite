@@ -69,7 +69,7 @@
                         <div class="frame-image frame-image-bottom bg-flashlight video-popup icon-center">
                             <img src="{{ asset('assets/images/banner/banner-image-03.png') }}" alt="Banner Images">
                             <div class="video-icon">
-                                <a class="btn-default rounded-player popup-video border bg-white-dropshadow" href="{{ asset('https://www.youtube.com/watch?v=tj9-MGHCs38') }}">
+                                <a class="btn-default rounded-player popup-video border bg-white-dropshadow" href="{{ asset('https://rutube.ru/play/embed/ef1ea10aed568ee793f2a2af0bb55b00/') }}">
                                     <span><i class="feather-play"></i></span>
                                 </a>
                             </div>
@@ -93,7 +93,7 @@
                             <h4 class="subtitle">
                                 <span class="theme-gradient">ЧТО МЫ ПРЕДЛАГАЕМ</span>
                             </h4>
-                            <h2 class="title w-600 mb--20">Инновации, которые заменяют штат операторов 24/7</h2>
+                            <h2 class="title w-600 mb--20">Инновации, которые заменяют штат операторов</h2>
                             <p class="description b1">Гибкие текстовые и голосовые решения, которые легко интегрируются и адаптируются</p>
                         </div>
                     </div>
@@ -573,14 +573,10 @@
         <x-copyright />
         <!-- End Copy Right Area  -->
 
-        {{-- <div class="rn-progress-parent">
-            <svg class="rn-back-circle svg-inner" width="100%" height="100%" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
-            </svg>
-        </div>
+        
 
         <!--back to top -->
-        <x-backtotop /> --}}
+        <x-backtotop />
 
     </main>
 

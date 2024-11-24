@@ -1,7 +1,7 @@
 @extends('layout.layout4')
 
 @php
-$headTitle = 'Pricing';
+$headTitle = 'Цены';
 $header = 'header2';
 @endphp
 
@@ -26,77 +26,80 @@ $header = 'header2';
                     <div class="col-lg-12">
                         <div class="section-title text-center" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">
                             <h4 class="subtitle">
-                                <span class="theme-gradient">Pricing</span>
+                                <span class="theme-gradient">Цены</span>
                             </h4>
                             <h2 class="title w-600 mb--20">
-                                Commence Content Journey with AI
+                                Гибкие тарифы для любого бюджета
                             </h2>
                             <p class="description b1">
-                                Collaborate with AI to generate content that resonates.
+                                Выберите оптимальный план для автоматизации общения с клиентами
                             </p>
                         </div>
 
                         <nav class="chatenai-tab">
                             <div class="tab-btn-grp nav nav-tabs mb-3 text-center justify-content-center" id="nav-tab" role="tablist">
-                                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
-                                    Monthly
+                                <!-- Вкладка для текстовых ботов -->
+                                <button class="nav-link active" id="nav-text-tab" data-bs-toggle="tab" data-bs-target="#nav-text" type="button" role="tab" aria-controls="nav-text" aria-selected="true">
+                                    Текстовые боты
                                 </button>
-                                <button class="nav-link with-badge" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
-                                    Yearly
-                                    <span class="rainbow-badge-card badge-border">20% Off</span>
+                                <!-- Вкладка для входящих вызовов -->
+                                <button class="nav-link" id="nav-incoming-tab" data-bs-toggle="tab" data-bs-target="#nav-incoming" type="button" role="tab" aria-controls="nav-incoming" aria-selected="false">
+                                    Входящие вызовы
+                                </button>
+                                <!-- Вкладка для исходящих вызовов -->
+                                <button class="nav-link" id="nav-outgoing-tab" data-bs-toggle="tab" data-bs-target="#nav-outgoing" type="button" role="tab" aria-controls="nav-outgoing" aria-selected="false">
+                                    Исходящие вызовы
                                 </button>
                             </div>
                         </nav>
                     </div>
                 </div>
-                <div class="tab-content p-0 bg-transparent border-0 border bg-light" id="nav-tabContent">
-                    <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+                <div class="tab-content p-0 bg-transparent border-0 bg-light" id="nav-tabContent">
+                    <!-- Контент для текстовых ботов -->
+                    <div class="tab-pane fade active show" id="nav-text" role="tabpanel" aria-labelledby="nav-text-tab">
+                        <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div class="row row--15 mt_dec--30">
                             <div class="col-xl-3 col-lg-6 col-md-6 col-12 mt--30">
                                 <div class="rainbow-pricing style-chatenai">
                                     <div class="pricing-table-inner bg-flashlight">
                                         <div class="pricing-top">
                                             <div class="pricing-header">
-                                                <h4 class="title">Free</h4>
+                                                <h4 class="title">Минимальный</h4>
                                                 <div class="pricing">
                                                     <div class="price-wrapper">
-                                                        <span class="currency">$</span><span class="price">0</span>
+                                                        <span class="currency">от</span><span class="price">0.15</span><span class="currency">₽</span>
                                                     </div>
-                                                    <span class="subtitle">USD Per Month</span>
+                                                    <span class="subtitle">За 4000 символов</span>
                                                 </div>
                                                 <div class="separator-animated mt--30 mb--30"></div>
                                             </div>
                                             <div class="pricing-body">
                                                 <ul class="list-style--1">
                                                     <li>
-                                                        <i class="feather-check-circle"></i> 7,700
-                                                        Words
+                                                        <i class="feather-check-circle"></i> Для рассылки уведомлений
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i> 6+
-                                                        Templates
+                                                        <i class="feather-check-circle"></i> SMS и мессенджеры
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i> 5+
-                                                        Languages
+                                                        <i class="feather-check-circle"></i> Простое управление
                                                     </li>
                                                     <li>
-                                                        <i class="feather-minus-circle"></i> AI Blog
-                                                        generate
+                                                        <i class="feather-minus-circle"></i> Без нейросетей
                                                     </li>
                                                     <li>
-                                                        <i class="feather-minus-circle"></i> Advance
-                                                        Editor Tool
+                                                        <i class="feather-minus-circle"></i> Только исходящие сообщения
                                                     </li>
                                                     <li>
-                                                        <i class="feather-minus-circle"></i>
-                                                        Consistent support
+                                                        <i class="feather-minus-circle"></i> Ограниченная поддержка
                                                     </li>
                                                 </ul>
                                             </div>
+                                            
                                         </div>
                                         <div class="pricing-footer">
-                                            <a class="btn-default btn-border" href="#">Try it now</a>
+                                            <a class="btn-default btn-border" href="#">Выбрать</a>
                                         </div>
                                     </div>
                                 </div>
@@ -106,46 +109,38 @@ $header = 'header2';
                                     <div class="pricing-table-inner bg-flashlight">
                                         <div class="pricing-top">
                                             <div class="pricing-header">
-                                                <h4 class="title">Business</h4>
+                                                <h4 class="title">Стандартный</h4>
                                                 <div class="pricing">
                                                     <div class="price-wrapper">
-                                                        <span class="currency">$</span><span class="price">50</span>
+                                                        <span class="currency">от</span><span class="price">0.35</span><span class="currency">₽</span>
                                                     </div>
-                                                    <span class="subtitle">USD Per Month</span>
+                                                    <span class="subtitle">За 4000 символов</span>
                                                 </div>
                                                 <div class="separator-animated animated-true mt--30 mb--30"></div>
                                             </div>
                                             <div class="pricing-body">
                                                 <ul class="list-style--1">
                                                     <li>
-                                                        <i class="feather-check-circle"></i> 80,000
-                                                        Words
+                                                        <i class="feather-check-circle"></i> Для рассылки уведомлений
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i> 6+
-                                                        Templates
+                                                        <i class="feather-check-circle"></i> Для ответов на вопросы
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i> 5+
-                                                        Languages
+                                                        <i class="feather-check-circle"></i> Простая нейросеть GPT
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i> AI Blog
-                                                        generate
+                                                        <i class="feather-check-circle"></i> 1400 символов контекста
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i> Advance
-                                                        Editor Tool
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i>
-                                                        Consistent support
+                                                        <i class="feather-minus-circle"></i> Недоступна интеграция
                                                     </li>
                                                 </ul>
                                             </div>
+                                            
                                         </div>
                                         <div class="pricing-footer">
-                                            <a class="btn-default" href="#">Purchase Now</a>
+                                            <a class="btn-default" href="#">Выбрать</a>
                                         </div>
                                     </div>
                                 </div>
@@ -155,46 +150,40 @@ $header = 'header2';
                                     <div class="pricing-table-inner bg-flashlight">
                                         <div class="pricing-top">
                                             <div class="pricing-header">
-                                                <h4 class="title">Advanced</h4>
+                                                <h4 class="title">Расширенный</h4>
                                                 <div class="pricing">
                                                     <div class="price-wrapper">
-                                                        <span class="currency">$</span><span class="price">100</span>
+                                                        <span class="currency">от</span><span class="price">0.45</span><span class="currency">₽</span>
                                                     </div>
-                                                    <span class="subtitle">USD Per Month</span>
+                                                    <span class="subtitle">За 4000 символов</span>
                                                 </div>
                                                 <div class="separator-animated animated-true mt--30 mb--30"></div>
                                             </div>
                                             <div class="pricing-body">
                                                 <ul class="list-style--1">
                                                     <li>
-                                                        <i class="feather-check-circle"></i> 280,000
-                                                        Words
+                                                        <i class="feather-check-circle"></i> Виджет для сайта
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i> 6+
-                                                        Templates
+                                                        <i class="feather-check-circle"></i> Обработка диалогов
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i> 5+
-                                                        Languages
+                                                        <i class="feather-check-circle"></i> Продвинутая нейросеть GPT
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i> AI Blog
-                                                        generate
+                                                        <i class="feather-check-circle"></i> 2500 символов контекста
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i> Advance
-                                                        Editor Tool
+                                                        <i class="feather-check-circle"></i> Понимание сложных запросов
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i>
-                                                        Consistent support
+                                                        <i class="feather-check-circle"></i> Полная интеграция 
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="pricing-footer">
-                                            <a class="btn-default" href="#">Purchase Now</a>
+                                            <a class="btn-default" href="#">Выбрать</a>
                                         </div>
                                     </div>
                                 </div>
@@ -204,251 +193,54 @@ $header = 'header2';
                                     <div class="pricing-table-inner bg-flashlight">
                                         <div class="pricing-top">
                                             <div class="pricing-header">
-                                                <h4 class="title">Enterprise</h4>
+                                                <h4 class="title">Максимальный</h4>
                                                 <div class="pricing">
                                                     <div class="price-wrapper">
-                                                        <span class="price sm-text">Let's Talk</span>
+                                                        <span class="currency">от</span><span class="price">0.55</span><span class="currency">₽</span>
                                                     </div>
-                                                    <span class="subtitle">Forever</span>
+                                                    <span class="subtitle">За 4000 символов</span>
                                                 </div>
                                                 <div class="separator-animated mt--30 mb--30"></div>
                                             </div>
                                             <div class="pricing-body">
                                                 <ul class="list-style--1">
                                                     <li>
-                                                        <i class="feather-check-circle"></i> 3,580,000
-                                                        Words
+                                                        <i class="feather-check-circle"></i> Виджет для сайта
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i> 15+
-                                                        Templates
+                                                        <i class="feather-check-circle"></i> Обработка диалогов
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i> 8+
-                                                        Languages
+                                                        <i class="feather-check-circle"></i> Для порталов поддержки
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i> AI Blog
-                                                        generate
+                                                        <i class="feather-check-circle"></i> Передовая нейросеть GPT
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i> Advance
-                                                        Editor Tool
+                                                        <i class="feather-check-circle"></i> 4125 символов контекста
                                                     </li>
                                                     <li>
-                                                        <i class="feather-check-circle"></i>
-                                                        Consistent support
+                                                        <i class="feather-check-circle"></i> Полная интеграция
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="pricing-footer">
-                                            <a class="btn-default btn-border" href="#">Contact Sales</a>
+                                            <a class="btn-default btn-border" href="#">Выбрать</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                        <div class="row row--15">
-                            <div class="col-lg-3 col-md-6 col-12">
-                                <div class="rainbow-pricing style-chatenai">
-                                    <div class="pricing-table-inner bg-flashlight">
-                                        <div class="pricing-top">
-                                            <div class="pricing-header">
-                                                <h4 class="title">Free</h4>
-                                                <div class="pricing">
-                                                    <div class="price-wrapper">
-                                                        <span class="currency">$</span><span class="price">0</span>
-                                                    </div>
-                                                    <span class="subtitle">USD Per Month</span>
-                                                </div>
-                                                <div class="separator-animated mt--30 mb--30"></div>
-                                            </div>
-                                            <div class="pricing-body">
-                                                <ul class="list-style--1">
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> 7,700
-                                                        Words
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> 6+
-                                                        Templates
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> 5+
-                                                        Languages
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-minus-circle"></i> AI Blog
-                                                        generate
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-minus-circle"></i> Advance
-                                                        Editor Tool
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-minus-circle"></i>
-                                                        Consistent support
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="pricing-footer">
-                                            <a class="btn-default btn-border" href="#">Try it now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-12">
-                                <div class="rainbow-pricing style-chatenai active">
-                                    <div class="pricing-table-inner bg-flashlight">
-                                        <div class="pricing-top">
-                                            <div class="pricing-header">
-                                                <h4 class="title">Business</h4>
-                                                <div class="pricing">
-                                                    <div class="price-wrapper">
-                                                        <span class="currency">$</span><span class="price">300</span>
-                                                    </div>
-                                                    <span class="subtitle">USD Per Year</span>
-                                                </div>
-                                                <div class="separator-animated animated-true mt--30 mb--30"></div>
-                                            </div>
-                                            <div class="pricing-body">
-                                                <ul class="list-style--1">
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> 80,000
-                                                        Words
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> 6+
-                                                        Templates
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> 5+
-                                                        Languages
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> AI Blog
-                                                        generate
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> Advance
-                                                        Editor Tool
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i>
-                                                        Consistent support
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="pricing-footer">
-                                            <a class="btn-default" href="#">Purchase Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-12">
-                                <div class="rainbow-pricing style-chatenai active">
-                                    <div class="pricing-table-inner bg-flashlight">
-                                        <div class="pricing-top">
-                                            <div class="pricing-header">
-                                                <h4 class="title">Advanced</h4>
-                                                <div class="pricing">
-                                                    <div class="price-wrapper">
-                                                        <span class="currency">$</span><span class="price">500</span>
-                                                    </div>
-                                                    <span class="subtitle">USD Per Year</span>
-                                                </div>
-                                                <div class="separator-animated animated-true mt--30 mb--30"></div>
-                                            </div>
-                                            <div class="pricing-body">
-                                                <ul class="list-style--1">
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> 280,000
-                                                        Words
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> 6+
-                                                        Templates
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> 5+
-                                                        Languages
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> AI Blog
-                                                        generate
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> Advance
-                                                        Editor Tool
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i>
-                                                        Consistent support
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="pricing-footer">
-                                            <a class="btn-default" href="#">Purchase Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-12">
-                                <div class="rainbow-pricing style-chatenai">
-                                    <div class="pricing-table-inner bg-flashlight">
-                                        <div class="pricing-top">
-                                            <div class="pricing-header">
-                                                <h4 class="title">Enterprise</h4>
-                                                <div class="pricing">
-                                                    <div class="price-wrapper">
-                                                        <span class="price sm-text">Let's Talk</span>
-                                                    </div>
-                                                    <span class="subtitle">Per Year</span>
-                                                </div>
-                                                <div class="separator-animated mt--30 mb--30"></div>
-                                            </div>
-                                            <div class="pricing-body">
-                                                <ul class="list-style--1">
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> 3,580,000
-                                                        Words
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> 15+
-                                                        Templates
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> 8+
-                                                        Languages
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> AI Blog
-                                                        generate
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i> Advance
-                                                        Editor Tool
-                                                    </li>
-                                                    <li>
-                                                        <i class="feather-check-circle"></i>
-                                                        Consistent support
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="pricing-footer">
-                                            <a class="btn-default btn-border" href="#">Contact Sales</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
+                    <!-- Контент для входящих вызовов -->
+                    <div class="tab-pane fade" id="nav-incoming" role="tabpanel" aria-labelledby="nav-incoming-tab">
+                        <!-- Добавьте контент для входящих вызовов здесь -->
+                    </div>
+                    <!-- Контент для исходящих вызовов -->
+                    <div class="tab-pane fade" id="nav-outgoing" role="tabpanel" aria-labelledby="nav-outgoing-tab">
+                        <!-- Добавьте контент для исходящих вызовов здесь -->
                     </div>
                 </div>
             </div>

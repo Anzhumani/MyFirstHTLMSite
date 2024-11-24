@@ -1,10 +1,8 @@
-@extends('layout.layout2')
+@extends('layout.layout4')
 
 @php
-$headTitle = 'How to use';
-$title = 'How to use';
-$subTitle = 'How to use';
-$header = 'header3';
+$headTitle = 'Наши преимущества';
+$header = 'header2';
 @endphp
 
 @section('content')
@@ -34,14 +32,14 @@ $header = 'header3';
                                                         </li>
                                                         <li>
                                                             <a href="#engage-sec">
-                                                                <span>Explore and engage</span>
+                                                                <span>Explore exit </span>
                                                             </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </li>
                                             <li class="has-submenu d-block">
-                                                <a class="collapse-btn collapsed" data-bs-toggle="collapse" href="pricing" role="button" aria-expanded="false" aria-controls="pricing"><span>Pricing
+                                                <a class="collapse-btn collapsed" data-bs-toggle="collapse" href="#pricing" role="button" aria-expanded="false" aria-controls="pricing"><span>Pricing
                                                         Plans</span></a>
                                                 <div class="collapse" id="pricing">
                                                     <ul class="submenu rbt-default-sidebar-list">

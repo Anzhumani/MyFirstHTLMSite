@@ -16149,11 +16149,6 @@ iframe {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
 }
-.rn-progress-parent.rn-backto-top-active {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
 .rn-progress-parent::after {
   position: absolute;
   font-family: "feather" !important;

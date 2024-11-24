@@ -54,11 +54,11 @@
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
 
-    &.rn-backto-top-active {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
-    }
+    // &.rn-backto-top-active {
+    //     opacity: 1;
+    //     visibility: visible;
+    //     transform: translateY(0);
+    // }
 
     &::after {
         position: absolute;

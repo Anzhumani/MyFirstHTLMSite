@@ -42,8 +42,8 @@
                     <div class="row">
                         <div class="col-lg-12 mb--40">
                             <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                                <h4 class="subtitle "><span class="theme-gradient">Contact Form</span></h4>
-                                <h2 class="title w-600 mb--20">Our Contact Address Here.</h2>
+                                <h4 class="subtitle "><span class="theme-gradient">ФОРМА ОБРАТНОЙ СВЯЗИ</span></h4>
+                                <h2 class="title w-600 mb--20">Свяжитесь с нами или задайте вопрос</h2>
                             </div>
                         </div>
                     </div>
@@ -51,38 +51,39 @@
                         <div class="col-lg-12">
                             <div class="rainbow-contact-address mt_dec--30">
                                 <div class="row">
+                                    <!-- Блок телефона -->
                                     <div class="col-lg-4 col-md-6 col-12">
                                         <div class="rainbow-address bg-flashlight">
                                             <div class="icon">
-                                                <i class="feather-headphones"></i>
+                                                <i class="feather-phone"></i>
                                             </div>
                                             <div class="inner">
-                                                <h4 class="title">Contact Phone Number</h4>
-                                                <p><a href="#">+444 555 666 777</a></p>
-                                                <p><a href="#">+222 222 222 333</a></p>
+                                                <h4 class="title">Позвоните нам</h4>
+                                                <p><a href="tel:+444555666777">+444 555 666 777</a></p>
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- Блок email -->
                                     <div class="col-lg-4 col-md-6 col-12">
                                         <div class="rainbow-address bg-flashlight">
                                             <div class="icon">
                                                 <i class="feather-mail"></i>
                                             </div>
                                             <div class="inner">
-                                                <h4 class="title">Our Email Address</h4>
+                                                <h4 class="title">Напишите нам</h4>
                                                 <p><a href="mailto:admin@gmail.com">admin@gmail.com</a></p>
-                                                <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- Блок Telegram -->
                                     <div class="col-lg-4 col-md-6 col-12">
                                         <div class="rainbow-address bg-flashlight">
                                             <div class="icon">
-                                                <i class="feather-map-pin"></i>
+                                                <i class="feather-send"></i>
                                             </div>
                                             <div class="inner">
-                                                <h4 class="title">Our Location</h4>
-                                                <p>5678 Bangla Main Road, cities 580 <br> GBnagla, example 54786</p>
+                                                <h4 class="title">Наш Telegram</h4>
+                                                <p><a href="https://t.me/example_account" target="_blank">@example_account</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -90,46 +91,76 @@
                             </div>
                         </div>
                     </div>
-
+        
+                    <!-- Форма и карта -->
                     <div class="row mt--40 row--15">
                         <div class="col-lg-7">
-                            <form class="contact-form-1 rainbow-dynamic-form" id="contact-form" method="POST" action="mail') }}">
+                            <form class="contact-form-1 rainbow-dynamic-form" id="contact-form" method="POST" action="mail">
                                 <div class="form-group">
-                                    <input type="text" name="contact-name" id="contact-name" placeholder="Your Name">
+                                    <input type="text" name="contact-name" id="contact-name" placeholder="Ваше имя">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="contact-phone" id="contact-phone" placeholder="Phone Number">
+                                    <input type="text" name="contact-phone" id="contact-phone" placeholder="Ваш номер телефона">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" id="contact-email" name="contact-email" placeholder="Your Email">
+                                    <input type="email" id="contact-email" name="contact-email" placeholder="Email">
                                 </div>
-
                                 <div class="form-group">
-                                    <input type="text" id="subject" name="subject" placeholder="Your Subject">
+                                    <input type="text" id="subject" name="subject" placeholder="Тема">
                                 </div>
-
                                 <div class="form-group">
-                                    <textarea name="contact-message" id="contact-message" placeholder="Your Message"></textarea>
+                                    <textarea name="contact-message" id="contact-message" placeholder="Ваше сообщение"></textarea>
                                 </div>
-
+                                <!-- Чекбокс согласия -->
                                 <div class="form-group">
-                                    <button name="submit" type="submit" id="submit" class="btn-default btn-large rainbow-btn">
-                                        <span>Submit Now</span>
+                                    <div class="rbt-checkbox-wrapper">
+                                        <input id="contact-consent-checkbox" name="contact-consent" type="checkbox" value="yes" required>
+                                        <label for="contact-consent-checkbox">
+                                            Я согласен с 
+                                            <a href="URL_СТРАНИЦЫ_С_ПРАВИЛАМИ" target="_blank">правилами обработки персональных данных</a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <!-- Кнопка отправки -->
+                                <div class="form-group">
+                                    <button name="submit" type="submit" id="submit-button" class="btn-default btn-large rainbow-btn" disabled>
+                                        <span>Отправить</span>
                                     </button>
                                 </div>
                             </form>
                         </div>
                         <div class="col-lg-5 mt_md--30 mt_sm--30">
-                            <div class="google-map-style-1">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14554259.179133086!2d-105.54385245388013!3d37.49334218664659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sbd!4v1630777307491!5m2!1sen!2sbd" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <div class="yandex-map-style-1">
+                                <div style="position:relative;overflow:hidden;">
+                                    <a href="https://yandex.ru/maps" 
+                                       style="color:#eee;font-size:12px;position:absolute;top:0px;">Посетить Яндекс Карты</a>
+                                    <iframe
+                                        src="https://yandex.ru/map-widget/v1/?ll=82.909136%2C55.028541&mode=poi&poi%5Bpoint%5D=82.905354%2C55.028401&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1045481742&z=16.37"
+                                        width="600"
+                                        height="550"
+                                        frameborder="1"
+                                        allowfullscreen="true"
+                                        style="position:relative; border:0;">
+                                    </iframe>
+                                </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
-        <!-- End Contact Area  -->
+
+        <script>
+            // Скрипт для управления кнопкой отправки
+            const consentCheckbox = document.getElementById('contact-consent-checkbox');
+            const submitBtn = document.getElementById('submit-button');
+        
+            consentCheckbox.addEventListener('change', function() {
+                submitBtn.disabled = !this.checked;
+            });
+        </script>
+        <!-- End Contact Area -->
 
         <!-- Start Footer Area  -->
         <x-footer />

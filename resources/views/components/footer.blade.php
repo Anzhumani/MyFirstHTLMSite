@@ -39,13 +39,16 @@
                                 <div class="form-group" style="position: relative;">
                                     <span style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 14px;"></span>
                                     <input
-                                    type="tel"
-                                    name="phone_number"
-                                    placeholder="Ваш номер телефона"
-                                    pattern="\d{10,11}"
-                                    required
-                                    inputmode="numeric"
-                                    onkeypress="return event.charCode >= 48 && event.charCode <= 57"/>
+                                        type="tel"
+                                        name="phone_number"
+                                        placeholder="Ваш номер телефона"
+                                        pattern="^(\+7\d{10}|7\d{10}|8\d{10}|\d{10})$"
+                                        required
+                                        inputmode="tel"
+                                        onkeypress="return event.charCode >= 48 && event.charCode <= 57 || event.charCode === 43"
+                                        title="10 цифр, 11 цифр с 8, +7"
+                                        style="padding-left: 10px;"
+                                    />
                                     <button class="btn-default bg-solid-primary" type="submit" disabled>
                                         <i class="feather-arrow-right"></i>
                                     </button>
