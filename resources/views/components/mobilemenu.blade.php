@@ -17,37 +17,53 @@
         <div class="content">
             <ul class="mainmenu">
                 <li><a href="{{ route('index') }}">Главная</a></li>
-                <li class="with-megamenu has-menu-child-item position-relative">
-                    <a href="#">О нас</a>
-                    <ul class="submenu">
-                        <li><a href="{{ route('styleGuide') }}">Компания</a></li>
-                        <li><a href="{{ route('blog') }}">Миссия</a></li>
-                        <li><a href="{{ route('blogDetails') }}">Команда</a></li>
-                        <li><a href="{{ route('termsPolicy') }}">Партнерам</a></li>
-                        <li><a href="{{ route('privacyPolicy') }}">Вакансии</a></li>
-                    </ul>
+
+                <li class="has-submenu">
+                    <a class="collapse-btn collapsed" data-bs-toggle="collapse" href="#aboutMenu" role="button" aria-expanded="false" aria-controls="aboutMenu">
+                        О нас
+                    </a>
+                    <div class="collapse" id="aboutMenu">
+                        <ul class="submenu">
+                            <li><a href="{{ route('styleGuide') }}">Компания</a></li>
+                            <li><a href="{{ route('blog') }}">Миссия</a></li>
+                            <li><a href="{{ route('blogDetails') }}">Команда</a></li>
+                            <li><a href="{{ route('termsPolicy') }}">Партнерам</a></li>
+                            <li><a href="{{ route('privacyPolicy') }}">Вакансии</a></li>
+                        </ul>
+                    </div>
                 </li>
-                <li class="with-megamenu has-menu-child-item position-relative">
-                    <a href="#">Услуги</a>
-                    <ul class="submenu">
-                        <li><a href="{{ route('styleGuide') }}">Ассистенты для сайта</a></li>
-                        <li><a href="{{ route('blog') }}">Мессенджеры и SMS</a></li>
-                        <li><a href="{{ route('blogDetails') }}">Входящие вызовы</a></li>
-                        <li><a href="{{ route('blogDetails') }}">Исходящие вызовы</a></li>
-                    </ul>
+
+                <li class="has-submenu">
+                    <a class="collapse-btn collapsed" data-bs-toggle="collapse" href="#servicesMenu" role="button" aria-expanded="false" aria-controls="servicesMenu">
+                        Услуги
+                    </a>
+                    <div class="collapse" id="servicesMenu">
+                        <ul class="submenu">
+                            <li><a href="{{ route('styleGuide') }}">Ассистенты для сайта</a></li>
+                            <li><a href="{{ route('blog') }}">Мессенджеры и SMS</a></li>
+                            <li><a href="{{ route('blogDetails') }}">Входящие вызовы</a></li>
+                            <li><a href="{{ route('blogDetails') }}">Исходящие вызовы</a></li>
+                        </ul>
+                    </div>
                 </li>
-                <li class="with-megamenu has-menu-child-item position-relative">
-                    <a href="#">Преимущества</a>
-                    <ul class="submenu">
-                        <li><a href="{{ route('utilize') }}#gpt-models">Современные GPT-модели</a></li>
-                        <li><a href="{{ route('utilize') }}#voice-cloning">Клонирование голоса</a></li>
-                        <li><a href="{{ route('utilize') }}#speech-recognition">Точное распознавание речи</a></li>
-                        <li><a href="{{ route('utilize') }}#intent-detection">Распознавание намерений</a></li>
-                        <li><a href="{{ route('utilize') }}#auto-detection">Детекция автоответчиков</a></li>
-                        <li><a href="{{ route('utilize') }}#omnichannel">Омниканальность</a></li>
-                        <li><a href="{{ route('utilize') }}#integration">Интеграция под ключ</a></li>
-                    </ul>
+
+                <li class="has-submenu">
+                    <a class="collapse-btn collapsed" data-bs-toggle="collapse" href="#advantagesMenu" role="button" aria-expanded="false" aria-controls="advantagesMenu">
+                        Преимущества
+                    </a>
+                    <div class="collapse" id="advantagesMenu">
+                        <ul class="submenu">
+                            <li><a href="{{ route('utilize') }}#gpt-models">Современные GPT-модели</a></li>
+                            <li><a href="{{ route('utilize') }}#voice-cloning">Клонирование голоса</a></li>
+                            <li><a href="{{ route('utilize') }}#speech-recognition">Точное распознавание речи</a></li>
+                            <li><a href="{{ route('utilize') }}#intent-detection">Распознавание намерений</a></li>
+                            <li><a href="{{ route('utilize') }}#auto-detection">Детекция автоответчиков</a></li>
+                            <li><a href="{{ route('utilize') }}#omnichannel">Омниканальность</a></li>
+                            <li><a href="{{ route('utilize') }}#integration">Интеграция под ключ</a></li>
+                        </ul>
+                    </div>
                 </li>
+
                 <li><a href="{{ route('pricing') }}">Цены</a></li>
                 <li><a href="{{ route('contact') }}">Контакты</a></li>
             </ul>
