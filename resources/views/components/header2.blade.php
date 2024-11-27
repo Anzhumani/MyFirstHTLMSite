@@ -22,10 +22,10 @@
                                         <div class="row row--0">
                                             <div class="col-lg-12 single-mega-item">
                                                 <ul class="mega-menu-item">
-                                                    <h3 class="rbt-short-title">Компания</h3>
+                                                    <h3 class="rbt-short-title">Кто мы такие</h3>
                                                     <li>
                                                         <a href="{{ route('styleGuide') }}">
-                                                            <span>О компании</span>
+                                                            <span>Компания</span>
                                                         </a>
                                                     </li>
                                                     <li>
@@ -40,7 +40,7 @@
                                                     </li>
                                                     
                                                     <h3 class="rbt-short-title"></h3>
-                                                    <h3 class="rbt-short-title">Сотрудничество</h3>
+                                                    <h3 class="rbt-short-title">Партнерство и карьера</h3>
                                                     
                                                     <li>
                                                         <a href="{{ route('termsPolicy') }}">
@@ -58,52 +58,84 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="with-megamenu has-menu-child-item position-relative"><a href="#">Наши преимущества</a>
+                            <li class="with-megamenu has-menu-child-item position-relative"><a href="#">Услуги</a>
+                                <div class="rainbow-megamenu right-align with-mega-item-2 small">
+                                    <div class="wrapper p-0">
+                                        <div class="row row--0">
+                                            <div class="col-lg-12 single-mega-item">
+                                                <ul class="mega-menu-item">
+                                                    <h3 class="rbt-short-title">Решения для вас</h3>
+                                                    <li>
+                                                        <a href="{{ route('styleGuide') }}">
+                                                            <span>Ассистенты для сайта</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ route('blog') }}">
+                                                            <span>Мессенджеры и SMS</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ route('blogDetails') }}">
+                                                            <span>Входящие вызовы</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ route('blogDetails') }}">
+                                                            <span>Исходящие вызовы</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="with-megamenu has-menu-child-item position-relative"><a href="#">Преимущества</a>
                                 <div class="rainbow-megamenu right-align with-mega-item-2">
                                     <div class="wrapper p-0">
                                         <div class="row row--0">
                                             <div class="col-lg-6 single-mega-item">
                                                 <ul class="mega-menu-item">
-                                                    <h3 class="rbt-short-title">Технологии</h3>
+                                                    <h3 class="rbt-short-title">Технологические</h3>
                                                     <li>
-                                                        <a href="{{ route('utilize') }}#textgenerator-sec">
-                                                            <span>Нейросетевые модели</span>
+                                                        <a href="{{ route('utilize') }}#gpt-models">
+                                                            <span>Современные GPT-модели</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="{{ route('utilize') }}#pernalized-sec">
+                                                        <a href="{{ route('utilize') }}#voice-cloning">
                                                             <span>Клонирование голоса</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="{{ route('utilize') }}#engage-sec">
-                                                            <span>Распознавание речи</span>
+                                                        <a href="{{ route('utilize') }}#speech-recognition">
+                                                            <span>Точное распознавание речи</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="{{ route('utilize') }}#example1">
+                                                        <a href="{{ route('utilize') }}#intent-detection">
                                                             <span>Распознавание намерений</span>
                                                         </a>
                                                     </li>
+                                                    <li>
+                                                        <a href="{{ route('utilize') }}#auto-detection">
+                                                            <span>Детекция автоответчиков</span>
+                                                        </a>
+                                                    </li>
                                                     <h3 class="rbt-short-title"></h3>
-                                                    <h3 class="rbt-short-title">Возможности</h3>
+                                                    <h3 class="rbt-short-title">Функциональные</h3>
                                                     <li>
-                                                        <a href="{{ route('utilize') }}#example2">
-                                                            <span>Антиспам</span>
+                                                        <a href="{{ route('utilize') }}#omnichannel">
+                                                            <span>Омниканальность</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="{{ route('utilize') }}#example3">
-                                                            <span>Интеграции</span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="{{ route('utilize') }}#pricing_two">
-                                                            <span>Проектная работа</span>
+                                                        <a href="{{ route('utilize') }}#integration">
+                                                            <span>Интеграция под ключ</span>
                                                         </a>
                                                     </li>
                                                 </ul>
-                                                
                                             </div>
                                             <div class="col-lg-6 single-mega-item">
                                                 <div class="header-menu-img">
@@ -113,7 +145,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </li>
+                            </li>                            
                             <li><a href="{{ route('pricing') }}">Цены</a></li>
                             <li><a href="{{ route('contact') }}">Контакты</a></li>
                         </ul>
